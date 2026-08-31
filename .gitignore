@@ -1,0 +1,21 @@
+# Build outputs
+bin/
+obj/
+*.tmod
+
+# Local backups and logs
+AssetBackups/
+client-crashlog.txt
+*.log
+
+# IDE and OS metadata
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Local planning/source documents not shipped with the mod
+To-Do.xlsx

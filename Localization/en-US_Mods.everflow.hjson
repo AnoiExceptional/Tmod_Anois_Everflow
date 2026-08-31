@@ -1,0 +1,618 @@
+# This file will automatically update with entries for new content after a build and reload.
+# Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
+
+Items: {
+	Anaklusmos: {
+		DisplayName: Anaklusmos
+		Tooltip: mysterious blade, made of copper?
+	}
+
+	AlloySword: {
+		DisplayName: Alloy Greatsword
+		Tooltip: Left click to slash, right click to stab
+	}
+
+	MasterEmblem: {
+		DisplayName: Weapon Master Emblem
+		Tooltip: 12% increased melee and ranged damage
+	}
+
+	CommanderEmblem: {
+		DisplayName: Commander Emblem
+		Tooltip: 12% increased melee and summon damage
+	}
+
+	TrooperEmblem: {
+		DisplayName: Trooper Emblem
+		Tooltip: 12% increased ranged and summon damage
+	}
+
+	SageEmblem: {
+		DisplayName: Sage Emblem
+		Tooltip: 12% increased magical and ranged damage
+	}
+
+	BattleMageEmblem: {
+		DisplayName: Battle Mage Emblem
+		Tooltip: 12% increased melee and magical damage
+	}
+
+	NecromancerEmblem: {
+		DisplayName: Necromancer Emblem
+		Tooltip: 12% increased magical and summon damage
+	}
+
+	AlloyBow: {
+		DisplayName: Alloy Bow
+		Tooltip:
+			'''
+			Left click to shoot, right click to throw
+			"Bow-arang"
+			'''
+	}
+
+	AlloyBar: {
+		DisplayName: Alloy Bar
+		Tooltip: sometimes pure doesn't mean good
+	}
+
+	AlloyPickaxe: {
+		DisplayName: Alloy Pickaxe
+		Tooltip: ""
+	}
+
+	AlloyAxe: {
+		DisplayName: Alloy Axe
+		Tooltip: ""
+	}
+
+	AlloyHammer: {
+		DisplayName: Alloy Hammer
+		Tooltip: ""
+	}
+
+	AlloyChestplate: {
+		DisplayName: Alloy Chestplate
+		Tooltip: ""
+	}
+
+	AlloyGreaves: {
+		DisplayName: Alloy Greaves
+		Tooltip: ""
+	}
+
+	AlloyHelmet: {
+		DisplayName: Alloy Helmet
+		Tooltip:
+			'''
+			Melee damage increased by 10%
+			Magical damage increased by 10%
+			'''
+		SetBonus: Move speed increased by 10%
+	}
+
+	AlloyMask: {
+		DisplayName: Alloy Mask
+		Tooltip:
+			'''
+			Melee damage increased by 10%
+			Summon damage increased by 10%
+			'''
+		SetBonus: Grants immunity to knockback
+	}
+
+	AlloyTower: {
+		DisplayName: Alloy Tower
+		Tooltip:
+			'''
+			Melee damage increased by 10%
+			Ranged damage increased by 10%
+			'''
+		SetBonus: +5 defense
+	}
+
+	AlloyCrown: {
+		DisplayName: Alloy Crown
+		Tooltip:
+			'''
+			Ranged damage increased by 10%
+			Summon damage increased by 10%
+			'''
+		SetBonus: +1 minion capacity
+	}
+
+	AlloyHeadgear: {
+		DisplayName: Alloy Headgear
+		Tooltip:
+			'''
+			Magical damage increased by 10%
+			Ranged damage increased by 10%
+			'''
+		SetBonus: ranged speed increased by 15%
+	}
+
+	AlloyEarrings: {
+		DisplayName: Alloy Earrings
+		Tooltip:
+			'''
+			Magical damage increased by 10%
+			Summon damage increased by 10%
+			'''
+		SetBonus: maximum mana +60
+	}
+
+	AlloySpear: {
+		DisplayName: Alloy Spear
+		Tooltip: Left click to stab, rightclick to cast magic
+	}
+
+	AlloyChainsword: {
+		DisplayName: Alloy Chainsword
+		Tooltip:
+			'''
+			Left click to slash, right click to lash out the chain blade
+			Chain blade hits make minions and sentries deal 2 additional damage to the target
+			'''
+	}
+
+	ThousandBlade: {
+		DisplayName: Thousand Blade
+		Tooltip: Left click to slash; right click to tear enemies with a thousand blade fragments
+	}
+
+	DragonsEdge: {
+		DisplayName: Dragon's Edge
+		Tooltip: Grows stronger as the world progresses
+
+		Dynamic: {
+			CurrentStage: Current awakening stage: {0}/8
+			CurrentUnlocks: Unlocked abilities: {0}
+			FullyAwakened: The dragon's will is fully awakened
+			BladeWave: blade wave
+			Wyvern: Phantom Wyvern (every 7 whip hits)
+			StardustDragon: Phantom Stardust Dragon (every 5 whip hits)
+			PhantasmDragon: Phantom Phantasm Dragon (every 3 whip hits)
+			NoneUnlocked: None
+			ListSeparator: ", "
+			NextFirstBoss: Defeat any first boss to improve damage and attack speed
+			NextSkeletron: Defeat Skeletron to improve damage and unlock the blade wave
+			NextWallOfFlesh: Defeat the Wall of Flesh to improve combat performance and unlock the Phantom Wyvern
+			NextMechBoss: Defeat any mechanical boss to improve damage and whip range
+			NextPlantera: Defeat Plantera to improve damage and whip range
+			NextCultist: Defeat the Lunatic Cultist to improve attack speed and unlock the Phantom Stardust Dragon
+			NextMoonLord: Defeat the Moon Lord to fully awaken the dragon's will and unlock the Phantom Phantasm Dragon
+			Flavor: Unsheathe the sword and awakening the dragons
+		}
+	}
+
+	AlloyBook: {
+		DisplayName: How Steel Is Made
+		Tooltip:
+			'''
+			Left click to cast magic, right click to rain magic
+			"Forged and Honed"
+			'''
+	}
+
+	AlloyPistol: {
+		DisplayName: Alloy Pistol
+		Tooltip: Left click to fire, right click to spray magical flames
+	}
+
+	AlloyDagger: {
+		DisplayName: Alloy Dagger
+		Tooltip:
+			'''
+			Left click to summon an Alloy Guard, right click to throw
+			Your summons will focus 
+			'''
+	}
+
+	AlloyXbow: {
+		DisplayName: Alloy Crossbow
+		Tooltip: Left click fires arrows, right click shoots alloy arrows
+	}
+
+	AlloyStaff: {
+		DisplayName: Alloy Staff
+		Tooltip: Left click summons an Alloy Ball; right click to target
+	}
+
+	AlloyWand: {
+		DisplayName: Alloy Wand
+		Tooltip:
+			'''
+			Left click releases an alloy thorn through tiles
+			Right click reserves all free minion slots, granting 5% magic damage per slot for 10 seconds
+			'''
+	}
+
+	AlloyCrossMedal02: {
+		DisplayName: Alloy Cross Medal Mk. II
+		Tooltip:
+			'''
+			Summons the maneuverable Alloy Tank Mk. II
+			Requires at least 1 free minion slot and uses up to 3 slots as crew
+			Tank uses 20mm gun to deal ranged damage
+			'''
+	}
+
+	YaZiBrokenDagger: {
+		DisplayName: Mysterious Dagger
+		Tooltip: Use on ground to summon Ya Zi
+	}
+
+	SpiralHell: {
+		DisplayName: SpiralHell Rotatio
+		Tooltip: Left click rapidly fires magic bullets; right click changes form
+	}
+
+	SpiralHellImpacto: {
+		DisplayName: SpiralHell Impacto
+		Tooltip: Left click fires gravity-affected explosive magic shells; right click changes form
+	}
+
+	SpiralHellEquilibrio: {
+		DisplayName: SpiralHell Equilibrio
+		Tooltip: Left click fires high-speed magic sniper rounds; right click changes form
+	}
+
+	SpiralHellProsperito: {
+		DisplayName: SpiralHell Prosperito
+		Tooltip: Left click scatters magic shards; right click changes form
+	}
+
+	SpiralHellMasquerado: {
+		DisplayName: SpiralHell Masquerado
+		Tooltip: Hold left click to charge and fire a sustained magic beam; right click changes form
+	}
+
+	SpiralHellBarricado: {
+		DisplayName: SpiralHell Barricado
+		Tooltip: Left click performs a magic slash and summons three orbiting stars; right click changes form
+	}
+
+	SpiralHellGrowth: {
+		Stage: Current release stage: {0}/8
+		Unlocked: Current form unlocked
+		Locked: Current form is locked; right click can still cycle forms
+		HellIsEmpty: Hell is empty
+		Next1: Defeat any boss to unlock Equilibrio and strengthen existing forms
+		Next2: Defeat Skeletron to strengthen existing forms
+		Next3: Defeat the Wall of Flesh to unlock Prosperito and strengthen existing forms
+		Next4: Defeat any mechanical boss to unlock Masquerado and strengthen existing forms
+		Next5: Defeat Plantera to strengthen existing forms
+		Next6: Defeat the Lunatic Cultist to unlock Barricado and strengthen existing forms
+		Next7: Defeat the Moon Lord to fully release Spiral Hell
+	}
+
+	BurgerKing: {
+		DisplayName: Burger King
+		MoreYouEat: The more u eat, the stronger u come!
+		Tooltip:
+			'''
+			Left click to throw the burger
+			Right click to eat it without consuming it
+			'''
+	}
+
+	BurgerCooker: {
+		DisplayName: Burger Cooker
+		Tooltip: Adds up to five unlocked fillings to Burger King
+	}
+
+	AquaVirtue: {
+		DisplayName: Aqua Virtue
+		Tooltip:
+			'''
+			25% increased magic damage and critical strike chance
+			100% increased mana cost and +100 maximum mana
+			Halves mana regeneration delay and improves mana regeneration
+			Automatically uses mana potions when needed without causing Mana Sickness
+			Restores life equal to 20% of mana consumed
+			Restores mana equal to 20% of damage taken
+			Greatly increases mana star pickup range and pickup priority
+			Taking damage causes three stars to fall and become mana stars on impact
+			Increasing mana gains Aestus Dies, decreasing mana gains Aestus Nox
+			'''
+	}
+
+	LegionAuthority_1: {
+		DisplayName: Legion Authority of Captain
+		Tooltip: Increases your max number of minions by 1
+	}
+
+	LegionAuthority_2: {
+		DisplayName: Legion Authority of Centurion
+		Tooltip:
+			'''
+			Increases your max number of minions by 2
+			10% reduced non-summon damage
+			'''
+	}
+
+	LegionAuthority_3: {
+		DisplayName: Legion Authority of Chiliarch
+		Tooltip:
+			'''
+			Increases your max number of minions by 3
+			25% reduced non-summon damage
+			'''
+	}
+
+	LegionAuthority_4: {
+		DisplayName: Legion Authority of Commander
+		Tooltip:
+			'''
+			Increases your max number of minions by 4
+			50% reduced non-summon damage
+			'''
+	}
+
+	LegionAuthority_5: {
+		DisplayName: Legion Authority of Caesar
+		Tooltip:
+			'''
+			Increases your max number of minions by 5
+			100% reduced non-summon damage
+			'''
+	}
+
+	SinBrand_Gluttony: {
+		DisplayName: Brand of Gluttony
+		Tooltip:
+			'''
+			Reduces your max number of minions by 1
+			Minion damage restores 1% of the damage dealt as life
+			'''
+	}
+
+	SinBrand_Pride: {
+		DisplayName: Brand of Pride
+		Tooltip:
+			'''
+			Reduces your max number of minions by 1
+			Minions deal more damage the farther they are from you, up to 30%
+			'''
+	}
+
+	SinBrand_Wrath: {
+		DisplayName: Brand of Wrath
+		Tooltip:
+			'''
+			Reduces your max number of minions by 1
+			Increase Bonded Crit chance by 25%
+			'''
+	}
+
+	SinBrand_Jealous: {
+		DisplayName: Brand of Envy
+		Tooltip:
+			'''
+			Reduces your max number of minions by 1
+			Each different summon increases summon damage by 5%
+			'''
+	}
+
+	SinBrand_Lust: {
+		DisplayName: Brand of Lust
+		Tooltip:
+			'''
+			Reduces your max number of minions by 1
+			Minions deal more damage the closer they are to you, up to 30%
+			'''
+	}
+
+	SinBrand_Greed: {
+		DisplayName: Brand of Greed
+		Tooltip:
+			'''
+			Increases your max number of minions by 3
+			Reduces maximum mana by 180
+			'''
+	}
+
+	SinBrand_Sloth: {
+		DisplayName: Brand of Sloth
+		Tooltip:
+			'''
+			Reduces your max number of minions by 1
+			Each identical summon increases summon damage by 5%
+			'''
+	}
+
+	SinBrand: {
+		DisplayName: Brand of Cardinal Sin
+		Tooltip:
+			'''
+			Reduces your max number of minions by 1 and maximum mana by 180
+			30% increased summon damage
+			Each different summon increases summon damage by 5%
+			Each identical summon increases summon damage by 5%
+			Increases Bonded Crit chance by 25%
+			Minion damage restores 1% of the damage dealt as life
+			Grants the wearer “Paradise Lost”
+			'''
+	}
+}
+
+UI: {
+	AquaVirtueQuote: Nine in the fifth place: The pit is not yet full, only when settled is it level, no blame.
+	Foundation: Foundation
+
+	BurgerCooker: {
+		Title: Burger Cooker
+		SlotLabel: Burger Slot
+		InsertPrompt: Place Burger King in the slot to select fillings
+		SelectedCount: Selected: {0}/{1}
+		NoFillings: No fillings have been unlocked in this world
+	}
+}
+
+Projectiles: {
+	SpiralHellProjectile2.DisplayName: Spiral Hell Magic Shell
+	SpiralHellProjectile3.DisplayName: Spiral Hell Sniper Laser
+	SpiralHellProjectile4.DisplayName: Spiral Hell Radiant Shard
+	AlloySwordStab.DisplayName: Alloy Sword Stab
+	AlloyBowThrown.DisplayName: Alloy Bow Thrown
+	AlloySpearProjectile.DisplayName: Alloy Spear Projectile
+	AlloyChainswordProjectile.DisplayName: Alloy Chainsword Projectile
+	AlloyBookRubyBolt.DisplayName: Alloy Book Ruby Bolt
+	AlloyDaggerProjectile.DisplayName: Alloy Dagger Projectile
+	AlloyGuard.DisplayName: Alloy Guard
+	AlloyArrow.DisplayName: Alloy Arrow
+	AlloyBall.DisplayName: Alloy Ball
+	AlloyWandProjectile.DisplayName: Alloy Wand Projectile
+	AlloyWandProjectileTip.DisplayName: Alloy Wand Projectile Tip
+	DragonsEdgeWhipProjectile.DisplayName: Dragons Edge Whip Projectile
+	DragonsEdgeWyvernProjectile.DisplayName: Dragons Edge Wyvern Projectile
+	DragonsEdgeWyvernSegmentHitbox.DisplayName: Dragons Edge Wyvern Segment Hitbox
+	DragonsEdgeStardustProjectile.DisplayName: Dragons Edge Stardust Projectile
+	DragonsEdgeStardustSegmentHitbox.DisplayName: Dragons Edge Stardust Segment Hitbox
+	DragonsEdgePhantasmProjectile.DisplayName: Dragons Edge Phantasm Projectile
+	DragonsEdgePhantasmSegmentHitbox.DisplayName: Dragons Edge Phantasm Segment Hitbox
+	DragonsEdgeSlashProjectile.DisplayName: Dragons Edge Slash Projectile
+	SpiralHellPrismBeam.DisplayName: Spiral Hell Prism Beam
+	SpiralHellSlash6D.DisplayName: Spiral Hell Slash6 D
+	SpiralHellStar6A.DisplayName: Spiral Hell Star6 A
+	SpiralHellStar6B.DisplayName: Spiral Hell Star6 B
+	SpiralHellStar6C.DisplayName: Spiral Hell Star6 C
+	SpiralHellProjectile1.DisplayName: Spiral Hell Projectile1
+	SpiralHellNightsEdgeHit.DisplayName: Spiral Hell Nights Edge Hit
+	DragonsEdgeHitSlashProjectile.DisplayName: Dragons Edge Hit Slash Projectile
+	SpiralHellRotatioExplosion.DisplayName: Spiral Hell Rotatio Explosion
+	SpiralHellImpactoLunarExplosion.DisplayName: Spiral Hell Impacto Lunar Explosion
+	BurgerKingEatingVisual.DisplayName: Burger King Eating Visual
+	BurgerKingProjectile.DisplayName: Burger King Projectile
+	AncientSmithMagicProjectile.DisplayName: Ancient Smith Magic Projectile
+	AncientSmithSpearProjectile.DisplayName: Ancient Smith Spear Projectile
+	AncientTroopFlame.DisplayName: Ancient Troop Flame
+	AncientTroopGrenade.DisplayName: Ancient Troop Grenade
+	AncientTrooperMeleeSlash.DisplayName: Ancient Trooper Melee Slash
+	AncientTrooperArrow.DisplayName: Ancient Trooper Arrow
+	AncientTrooperRangedBow.DisplayName: Ancient Trooper Bow
+	ThousandBladeWhipProjectile.DisplayName: Thousand Blade Whip Projectile
+	DragonsEdgeLegacyWhipProjectile.DisplayName: Dragons Edge Legacy Whip Projectile
+	ThousandBladeFlyingNodeProjectile.DisplayName: Thousand Blade Flying Node Projectile
+	YaZiSword.DisplayName: Ya Zi Sword
+	AquaVirtueFallingStar.DisplayName: Aqua Virtue Falling Star
+	AquaVirtueEffectProjectile.DisplayName: Aqua Virtue Effect Projectile
+	SpiralHellCylinderAmmunition.DisplayName: Spiral Hell Cylinder Ammunition
+	SpiralHellCylinderChamber.DisplayName: Spiral Hell Cylinder Chamber
+	SpiralHellCylinderTentacles.DisplayName: Spiral Hell Cylinder Tentacles
+}
+
+Buffs: {
+	SinBrandBuff: {
+		DisplayName: Paradise Lost
+		Description: Each summon within 20 tiles grants 5 defense; each summon beyond 20 tiles grants 5% summon damage
+		CurrentBonus: Current bonus: +{0} defense and +{1}% summon damage
+	}
+
+	AquaVirtueBuff_1: {
+		DisplayName: Aestus Nox
+		Description: For every 5% of maximum mana spent in the last 5 seconds, gain 1% magic damage and critical strike chance
+		CurrentBonus: Current bonus: +{0}% magic damage and +{0}% magic critical strike chance
+	}
+
+	AquaVirtueBuff_2: {
+		DisplayName: Aestus Dies
+		Description: For every 5% of maximum mana restored in the last 5 seconds, gain 1% movement speed and defense
+		CurrentBonus: Current bonus: +{0}% movement speed and +{0}% defense
+	}
+
+	AlloyDaggerMark: {
+		DisplayName: Alloy Dagger Mark
+		Description: Targeted by Alloy Guards
+	}
+
+	AlloyChainswordTag: {
+		DisplayName: Alloy Chainblade Tag
+		Description: Takes 2 additional damage from minions and sentries
+	}
+
+	AlloyGuardBuff: {
+		DisplayName: Dagger Eater
+		Description: The Alloy Guard will fight for you
+	}
+
+	AlloyBallBuff: {
+		DisplayName: Stress Ball
+		Description: The Alloy Ball will fight for you
+	}
+
+	AlloyConduct: {
+		DisplayName: Alloy Conduct
+		Description: Reserves {0} minion slots and increases magic damage by {1}%
+	}
+
+	AlloyTank02Buff: {
+		DisplayName: Blitz！
+		Description:
+			'''
+			Current crew: {0}; ranged damage, summon damage, and movement speed increased by {1}%
+			Defense increased by 5
+			'''
+	}
+
+	BurgerKingMealBuff: {
+		DisplayName: Burger Feast
+		Description: The effects of the current fillings and ingredient sets are active
+	}
+
+	BurgerKingEatingCooldown: {
+		DisplayName: Full Stomach
+		Description: Burger King cannot be eaten again yet
+	}
+
+	YaZiDebuff: {
+		DisplayName: Ya Zi's Vengence
+		Description: Mods.everflow.Buffs.YaZiDebuff.Description
+	}
+}
+
+Mounts.AlloyTank02.DisplayName: Alloy Tank Mk. II
+
+NPCs: {
+	AncientSmith: {
+		DisplayName: Ancient Smith
+
+		TownNPCMood: {
+			NoHome: 我讨厌没有家。
+			Content: 我很满足。
+			FarFromHome: 我离家太远了。
+			LoveSpace: 我非常喜欢有这么大的空间。
+			DislikeCrowded: 我不喜欢这么拥挤。
+			HateCrowded: 我讨厌这么拥挤。
+			LoveBiome: 我非常喜欢{BiomeName}。
+			LikeBiome: 我喜欢{BiomeName}。
+			HateBiome: 我讨厌{BiomeName}。
+			LoveNPC: 我非常喜欢{NPCName}。
+			LikeNPC: 我喜欢{NPCName}。
+			HateNPC: 我讨厌{NPCName}。
+			LikeNPC_Princess: 我喜欢 {NPCName}。
+			Princess_LovesNPC: 我喜欢 {NPCName}。
+		}
+	}
+
+	AncientTroop.DisplayName: Ancient Troop
+	AncientTrooper_Melee.DisplayName: Ancient Trooper
+	AncientTrooper_Ranged.DisplayName: Ancient Trooper Archer
+	YaZi.DisplayName: Ya Zi
+	YaZiEye.DisplayName: Eye of Ya zi
+	YaZiDebuff.DisplayName: Ya Zi's Vengence
+	YaZiSword.DisplayName: Ya Zi Sword
+	YaZi_Body1.DisplayName: Ya Zi
+	YaZi_Body2.DisplayName: Ya Zi
+	YaZi_Body3.DisplayName: Ya Zi
+	YaZi_Tail1.DisplayName: Ya Zi
+	YaZi_Tail2.DisplayName: Ya Zi
+}
+
+Bestiary: {
+	AncientSmith: A smith from the lost Alloyan civilization, skilled in warfare, metallurgy, and art.
+	AncientTroop: An ancient Alloyan war machine, still carrying out orders whose purpose has long been forgotten.
+	AncientTrooper_Melee: An Alloyan soldier awakened alongside the ancient war machine.
+	AncientTrooper_Ranged: An Alloyan archer awakened alongside the ancient war machine.
+	YaZi: One of the nine sons of the dragon, born with an unending hunger for battle.
+}

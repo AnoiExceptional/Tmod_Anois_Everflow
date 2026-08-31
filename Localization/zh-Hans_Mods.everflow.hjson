@@ -1,0 +1,618 @@
+# This file will automatically update with entries for new content after a build and reload.
+# Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
+
+Items: {
+	Anaklusmos: {
+		DisplayName: 激流剑
+		Tooltip: 一把神秘的剑，用铜铸造？
+	}
+
+	AlloySword: {
+		DisplayName: 合金大剑
+		Tooltip: 左键挥砍，右键戳刺
+	}
+
+	MasterEmblem: {
+		DisplayName: 武器大师徽章
+		Tooltip: 近战和远程伤害提高12%
+	}
+
+	CommanderEmblem: {
+		DisplayName: 军团长徽章
+		Tooltip: 近战和召唤伤害提高12%
+	}
+
+	TrooperEmblem: {
+		DisplayName: 战争艺术家徽章
+		Tooltip: 远程和召唤伤害提高12%
+	}
+
+	SageEmblem: {
+		DisplayName: 魔导师徽章
+		Tooltip: 魔法和远程伤害提高12%
+	}
+
+	BattleMageEmblem: {
+		DisplayName: 战斗法师徽章
+		Tooltip: 近战和魔法伤害提高12%
+	}
+
+	NecromancerEmblem: {
+		DisplayName: 亡灵法师徽章
+		Tooltip: 魔法和召唤伤害提高12%
+	}
+
+	AlloyBow: {
+		DisplayName: 合金弓
+		Tooltip:
+			'''
+			左键射箭，右键投掷
+			"回旋弓"
+			'''
+	}
+
+	AlloyBar: {
+		DisplayName: 合金锭
+		Tooltip: 有的时候，纯粹不代表极致
+	}
+
+	AlloyPickaxe: {
+		DisplayName: 合金镐
+		// Tooltip: ""
+	}
+
+	AlloyAxe: {
+		DisplayName: 合金斧
+		// Tooltip: ""
+	}
+
+	AlloyHammer: {
+		DisplayName: 合金锤
+		// Tooltip: ""
+	}
+
+	AlloyChestplate: {
+		DisplayName: 合金胸甲
+		Tooltip: ""
+	}
+
+	AlloyGreaves: {
+		DisplayName: 合金胫甲
+		Tooltip: ""
+	}
+
+	AlloyHelmet: {
+		DisplayName: 合金头盔
+		Tooltip:
+			'''
+			近战伤害提高10%
+			魔法伤害提高10%
+			'''
+		SetBonus: 移动速度提高10%
+	}
+
+	AlloyMask: {
+		DisplayName: 合金面罩
+		Tooltip:
+			'''
+			近战伤害提高10%
+			召唤伤害提高10%
+			'''
+		SetBonus: 免疫击退
+	}
+
+	AlloyTower: {
+		DisplayName: 合金塔盔
+		Tooltip:
+			'''
+			近战伤害提高10%
+			远程伤害提高10%
+			'''
+		SetBonus: +5防御力
+	}
+
+	AlloyCrown: {
+		DisplayName: 合金头冠
+		Tooltip:
+			'''
+			远程伤害提高10%
+			召唤伤害提高10%
+			'''
+		SetBonus: 增加1召唤栏
+	}
+
+	AlloyHeadgear: {
+		DisplayName: 合金轻胄
+		Tooltip:
+			'''
+			魔法伤害提高10%
+			远程伤害提高10%
+			'''
+		SetBonus: 远程攻击速度提高15%
+	}
+
+	AlloyEarrings: {
+		DisplayName: 合金耳饰
+		Tooltip:
+			'''
+			魔法伤害提高10%
+			召唤伤害提高10%
+			'''
+		SetBonus: 最大魔力值+60
+	}
+
+	AlloySpear: {
+		DisplayName: 合金战矛
+		Tooltip: 左键戳刺，右键施法
+	}
+
+	AlloyChainsword: {
+		DisplayName: 合金链剑
+		Tooltip:
+			'''
+			左键挥砍，右键甩出链刃
+			链刃命中会使随从和哨兵对目标额外造成2点伤害
+			'''
+	}
+
+	ThousandBlade: {
+		DisplayName: 魔刀千刃
+		Tooltip: 左键挥砍，右键将刀刃化作千片撕裂敌人
+	}
+
+	DragonsEdge: {
+		DisplayName: 龙意剑
+		Tooltip: 随世界进度成长
+
+		Dynamic: {
+			CurrentStage: 当前解放阶段：{0}/8
+			CurrentUnlocks: 已解锁能力：{0}
+			FullyAwakened: 龙意已完全解放
+			BladeWave: 剑气
+			Wyvern: 幻象飞龙（每7次鞭打命中）
+			StardustDragon: 幻象星尘龙（每5次鞭打命中）
+			PhantasmDragon: 幻象幻影龙（每3次鞭打命中）
+			NoneUnlocked: 无
+			ListSeparator: 、
+			NextFirstBoss: 击败任意首个Boss以提升伤害与攻击速度
+			NextSkeletron: 击败骷髅王以提升伤害，解锁剑气
+			NextWallOfFlesh: 击败肉山以提升战斗性能，解锁幻象飞龙
+			NextMechBoss: 击败任意一个机械Boss以提升伤害与鞭打距离
+			NextPlantera: 击败世纪之花以提升伤害与鞭打距离
+			NextCultist: 击败拜月教邪教徒以提升攻击速度，解锁幻象星尘龙
+			NextMoonLord: 击败月球领主以完全解放龙意，解锁幻象幻影龙
+			Flavor: 剑出，龙形自在
+		}
+	}
+
+	AlloyBook: {
+		DisplayName: 《钢铁是怎样炼成的》
+		Tooltip:
+			'''
+			左键发射魔法，右键降下魔法
+			"千锤百炼"
+			'''
+	}
+
+	AlloyPistol: {
+		DisplayName: 合金手枪
+		Tooltip: 左键射击，右键喷射魔法火焰
+	}
+
+	AlloyDagger: {
+		DisplayName: 合金匕首
+		Tooltip:
+			'''
+			左键召唤合金盔甲魔，右键投掷
+			召唤物将会集中打击标记敌人
+			'''
+	}
+
+	AlloyXbow: {
+		DisplayName: 合金手弩
+		Tooltip: 左键射击，右键发射合金箭
+	}
+
+	AlloyStaff: {
+		DisplayName: 合金权杖
+		Tooltip: 左键召唤合金球，右键标记敌人
+	}
+
+	AlloyWand: {
+		DisplayName: 合金魔杖
+		Tooltip:
+			'''
+			左键释放贯穿物块的合金魔刺
+			右键占用所有空闲召唤栏，每栏提高5%魔法伤害，持续10秒
+			'''
+	}
+
+	AlloyCrossMedal02: {
+		DisplayName: 合金十字勋章2号
+		Tooltip:
+			'''
+			召唤可驾驶的合金二号坦克
+			需要至少1个空闲召唤栏，最多使用3个召唤栏作为乘员组
+			坦克使用20mm机炮造成远程伤害
+			'''
+	}
+
+	YaZiBrokenDagger: {
+		DisplayName: 神秘的匕首
+		Tooltip: 插入地面以召唤睚眦
+	}
+
+	SpiralHell: {
+		DisplayName: 螺旋地狱·转轮王
+		Tooltip: 左键连续发射魔法子弹，右键切换形态
+	}
+
+	SpiralHellImpacto: {
+		DisplayName: 螺旋地狱·泰山王
+		Tooltip: 左键连续发射受重力影响的爆炸魔法榴弹，右键切换形态
+	}
+
+	SpiralHellEquilibrio: {
+		DisplayName: 螺旋地狱·平等王
+		Tooltip: 左键连续发射高速魔法狙击弹，右键切换形态
+	}
+
+	SpiralHellProsperito: {
+		DisplayName: 螺旋地狱·都市王
+		Tooltip: 左键散射魔法碎片弹，右键切换形态
+	}
+
+	SpiralHellMasquerado: {
+		DisplayName: 螺旋地狱·五官王
+		Tooltip: 按住左键蓄力并释放持续魔法激光，右键切换形态
+	}
+
+	SpiralHellBarricado: {
+		DisplayName: 螺旋地狱·卞城王
+		Tooltip: 左键挥出魔法斩击并召唤三颗伴星，右键切换形态
+	}
+
+	SpiralHellGrowth: {
+		Stage: 当前解放阶段：{0}/8
+		Unlocked: 当前形态已解锁
+		Locked: 当前形态尚未解锁；右键可继续切换形态
+		HellIsEmpty: 地狱已空
+		Next1: 击败任意Boss以解锁平等王并强化现有形态
+		Next2: 击败骷髅王以强化现有形态
+		Next3: 击败血肉墙以解锁都市王并强化现有形态
+		Next4: 击败任意机械Boss以解锁五官王并强化现有形态
+		Next5: 击败世纪之花以强化现有形态
+		Next6: 击败拜月教邪教徒以解锁卞城王并强化现有形态
+		Next7: 击败月亮领主以完全解放螺旋地狱
+	}
+
+	BurgerKing: {
+		DisplayName: 汉堡王
+		MoreYouEat: 吃的越多，力量越强！
+		Tooltip:
+			'''
+			左键投掷汉堡
+			右键食用，但不会消耗
+			'''
+	}
+
+	BurgerCooker: {
+		DisplayName: 汉堡锅
+		Tooltip: 用于为汉堡王添加至多五种已解锁馅料
+	}
+
+	AquaVirtue: {
+		DisplayName: 水德一气太浩性
+		Tooltip:
+			'''
+			魔法伤害和魔法暴击率提高25%
+			魔力消耗提高100%，最大魔力值提高100
+			魔力再生延迟减半，并提升魔力恢复速度
+			魔力耗尽时自动饮用魔力药水，且不会获得魔力病
+			消耗魔力会恢复相当于消耗量20%的生命
+			受到伤害会恢复相当于伤害量20%的魔力
+			扩大魔力星的拾取范围，并优先吸取魔力星
+			受到伤害时会有三颗星星落下，触地后化为魔力星
+			魔力值增加时获得"潮"，魔力值减少时获得"汐"
+			'''
+	}
+
+	LegionAuthority_1: {
+		DisplayName: 军团权柄-队长
+		Tooltip: 召唤栏上限提高1个
+	}
+
+	LegionAuthority_2: {
+		DisplayName: 军团权柄-百夫长
+		Tooltip:
+			'''
+			召唤栏上限提高2个
+			召唤伤害以外的伤害降低10%
+			'''
+	}
+
+	LegionAuthority_3: {
+		DisplayName: 军团权柄-千夫长
+		Tooltip:
+			'''
+			召唤栏上限提高3个
+			召唤伤害以外的伤害降低25%
+			'''
+	}
+
+	LegionAuthority_4: {
+		DisplayName: 军团权柄-军团长
+		Tooltip:
+			'''
+			召唤栏上限提高4个
+			召唤伤害以外的伤害降低50%
+			'''
+	}
+
+	LegionAuthority_5: {
+		DisplayName: 军团权柄-帝王
+		Tooltip:
+			'''
+			召唤栏上限提高5个
+			召唤伤害以外的伤害降低100%
+			'''
+	}
+
+	SinBrand_Gluttony: {
+		DisplayName: 暴食烙印
+		Tooltip:
+			'''
+			召唤栏上限降低1个
+			召唤物造成伤害时恢复1%伤害值的生命
+			'''
+	}
+
+	SinBrand_Pride: {
+		DisplayName: 傲慢烙印
+		Tooltip:
+			'''
+			召唤栏上限降低1个
+			召唤物距离自身越远，造成的伤害越高，最多提高30%
+			'''
+	}
+
+	SinBrand_Wrath: {
+		DisplayName: 暴怒烙印
+		Tooltip:
+			'''
+			召唤栏上限降低1个
+			亲密暴击率提高25%
+			'''
+	}
+
+	SinBrand_Jealous: {
+		DisplayName: 嫉妒烙印
+		Tooltip:
+			'''
+			召唤栏上限降低1个
+			每种不同的召唤物使召唤伤害提高5%
+			'''
+	}
+
+	SinBrand_Lust: {
+		DisplayName: 色欲烙印
+		Tooltip:
+			'''
+			召唤栏上限降低1个
+			召唤物距离自身越近，造成的伤害越高，最多提高30%
+			'''
+	}
+
+	SinBrand_Greed: {
+		DisplayName: 贪婪烙印
+		Tooltip:
+			'''
+			召唤栏上限提高3个
+			最大魔力值降低180
+			'''
+	}
+
+	SinBrand_Sloth: {
+		DisplayName: 怠惰烙印
+		Tooltip:
+			'''
+			召唤栏上限降低1个
+			每个相同的召唤物使召唤伤害提高5%
+			'''
+	}
+
+	SinBrand: {
+		DisplayName: 大罪烙印
+		Tooltip:
+			'''
+			召唤栏上限降低1个，最大魔力值降低180
+			召唤伤害提高30%
+			每种不同的召唤物使召唤伤害提高5%
+			每个相同的召唤物使召唤伤害提高5%
+			亲密暴击率提高25%
+			召唤物造成伤害时恢复1%伤害值的生命
+			穿戴者获得“失乐园”
+			'''
+	}
+}
+
+UI: {
+	AquaVirtueQuote: 九五，坎不盈，祗既平，无咎
+	Foundation: 基石
+
+	BurgerCooker: {
+		Title: 汉堡锅
+		SlotLabel: 汉堡槽
+		InsertPrompt: 将汉堡王放入槽位以选择馅料
+		SelectedCount: 已选择：{0}/{1}
+		NoFillings: 当前世界尚未解锁任何馅料
+	}
+}
+
+Projectiles: {
+	// SpiralHellProjectile2.DisplayName: Spiral Hell Magic Shell
+	// SpiralHellProjectile3.DisplayName: Spiral Hell Sniper Laser
+	// SpiralHellProjectile4.DisplayName: Spiral Hell Radiant Shard
+	// AlloySwordStab.DisplayName: Alloy Sword Stab
+	// AlloyBowThrown.DisplayName: Alloy Bow Thrown
+	// AlloySpearProjectile.DisplayName: Alloy Spear Projectile
+	// AlloyChainswordProjectile.DisplayName: Alloy Chainsword Projectile
+	// AlloyBookRubyBolt.DisplayName: Alloy Book Ruby Bolt
+	// AlloyDaggerProjectile.DisplayName: Alloy Dagger Projectile
+	// AlloyGuard.DisplayName: Alloy Guard
+	// AlloyArrow.DisplayName: Alloy Arrow
+	// AlloyBall.DisplayName: Alloy Ball
+	// AlloyWandProjectile.DisplayName: Alloy Wand Projectile
+	// AlloyWandProjectileTip.DisplayName: Alloy Wand Projectile Tip
+	// DragonsEdgeWhipProjectile.DisplayName: Dragons Edge Whip Projectile
+	// DragonsEdgeWyvernProjectile.DisplayName: Dragons Edge Wyvern Projectile
+	// DragonsEdgeWyvernSegmentHitbox.DisplayName: Dragons Edge Wyvern Segment Hitbox
+	// DragonsEdgeStardustProjectile.DisplayName: Dragons Edge Stardust Projectile
+	// DragonsEdgeStardustSegmentHitbox.DisplayName: Dragons Edge Stardust Segment Hitbox
+	// DragonsEdgePhantasmProjectile.DisplayName: Dragons Edge Phantasm Projectile
+	// DragonsEdgePhantasmSegmentHitbox.DisplayName: Dragons Edge Phantasm Segment Hitbox
+	// DragonsEdgeSlashProjectile.DisplayName: Dragons Edge Slash Projectile
+	// SpiralHellPrismBeam.DisplayName: Spiral Hell Prism Beam
+	// SpiralHellSlash6D.DisplayName: Spiral Hell Slash6 D
+	// SpiralHellStar6A.DisplayName: Spiral Hell Star6 A
+	// SpiralHellStar6B.DisplayName: Spiral Hell Star6 B
+	// SpiralHellStar6C.DisplayName: Spiral Hell Star6 C
+	// SpiralHellProjectile1.DisplayName: Spiral Hell Projectile1
+	// SpiralHellNightsEdgeHit.DisplayName: Spiral Hell Nights Edge Hit
+	// DragonsEdgeHitSlashProjectile.DisplayName: Dragons Edge Hit Slash Projectile
+	// SpiralHellRotatioExplosion.DisplayName: Spiral Hell Rotatio Explosion
+	// SpiralHellImpactoLunarExplosion.DisplayName: Spiral Hell Impacto Lunar Explosion
+	// BurgerKingEatingVisual.DisplayName: Burger King Eating Visual
+	// BurgerKingProjectile.DisplayName: Burger King Projectile
+	// AncientSmithMagicProjectile.DisplayName: Ancient Smith Magic Projectile
+	// AncientSmithSpearProjectile.DisplayName: Ancient Smith Spear Projectile
+	// AncientTroopFlame.DisplayName: Ancient Troop Flame
+	// AncientTroopGrenade.DisplayName: Ancient Troop Grenade
+	// AncientTrooperMeleeSlash.DisplayName: Ancient Trooper Melee Slash
+	// AncientTrooperArrow.DisplayName: Ancient Trooper Arrow
+	// AncientTrooperRangedBow.DisplayName: Ancient Trooper Bow
+	// ThousandBladeWhipProjectile.DisplayName: Thousand Blade Whip Projectile
+	// DragonsEdgeLegacyWhipProjectile.DisplayName: Dragons Edge Legacy Whip Projectile
+	// ThousandBladeFlyingNodeProjectile.DisplayName: Thousand Blade Flying Node Projectile
+	YaZiSword.DisplayName: 睚眦剑
+	AquaVirtueFallingStar.DisplayName: 箕水豹
+	// AquaVirtueEffectProjectile.DisplayName: Aqua Virtue Effect Projectile
+	// SpiralHellCylinderAmmunition.DisplayName: Spiral Hell Cylinder Ammunition
+	// SpiralHellCylinderChamber.DisplayName: Spiral Hell Cylinder Chamber
+	// SpiralHellCylinderTentacles.DisplayName: Spiral Hell Cylinder Tentacles
+}
+
+Buffs: {
+	SinBrandBuff: {
+		DisplayName: 失乐园
+		Description: 20格内每个召唤物提供5防御，20格外每个召唤物提供5%召唤伤害
+		CurrentBonus: 当前加成：防御力 +{0}，召唤伤害 +{1}%
+	}
+
+	AquaVirtueBuff_1: {
+		DisplayName: 汐
+		Description: 最近5秒每消耗最大魔力值的5%，魔法伤害和魔法暴击率提高1%
+		CurrentBonus: 当前加成：魔法伤害 +{0}%，魔法暴击率 +{0}%
+	}
+
+	AquaVirtueBuff_2: {
+		DisplayName: 潮
+		Description: 最近5秒每恢复最大魔力值的5%，移动速度和防御力提高1%
+		CurrentBonus: 当前加成：移动速度 +{0}%，防御力 +{0}%
+	}
+
+	AlloyDaggerMark: {
+		DisplayName: 合金匕首标记
+		Description: 被合金盔甲魔集中攻击
+	}
+
+	AlloyChainswordTag: {
+		DisplayName: 合金链刃标记
+		Description: 受到的随从和哨兵伤害增加2点
+	}
+
+	AlloyGuardBuff: {
+		DisplayName: 爱吃匕首
+		Description: 合金盔甲魔会为你而战
+	}
+
+	AlloyBallBuff: {
+		DisplayName: 解压球球
+		Description: 合金球会为你而战
+	}
+
+	AlloyConduct: {
+		DisplayName: 合金传导
+		Description: 占用{0}个召唤栏，魔法伤害增加{1}%
+	}
+
+	AlloyTank02Buff: {
+		DisplayName: 闪电战！
+		Description:
+			'''
+			当前乘员组为{0}人，远程伤害、召唤伤害和移动速度提高{1}%
+			防御力提高5
+			'''
+	}
+
+	BurgerKingMealBuff: {
+		DisplayName: 汉堡盛宴
+		Description: 当前汉堡馅料与食材组合的效果正在生效
+	}
+
+	BurgerKingEatingCooldown: {
+		DisplayName: 饱腹时间
+		Description: 暂时无法再次食用汉堡王
+	}
+
+	YaZiDebuff: {
+		DisplayName: 睚眦必报
+		Description: Mods.everflow.Buffs.YaZiDebuff.Description
+	}
+}
+
+Mounts.AlloyTank02.DisplayName: 合金二号坦克
+
+NPCs: {
+	AncientSmith: {
+		DisplayName: 古代工匠
+
+		TownNPCMood: {
+			// NoHome: 我讨厌没有家。
+			// Content: 我很满足。
+			// FarFromHome: 我离家太远了。
+			// LoveSpace: 我非常喜欢有这么大的空间。
+			// DislikeCrowded: 我不喜欢这么拥挤。
+			// HateCrowded: 我讨厌这么拥挤。
+			// LoveBiome: 我非常喜欢{BiomeName}。
+			// LikeBiome: 我喜欢{BiomeName}。
+			// HateBiome: 我讨厌{BiomeName}。
+			// LoveNPC: 我非常喜欢{NPCName}。
+			// LikeNPC: 我喜欢{NPCName}。
+			// HateNPC: 我讨厌{NPCName}。
+			// LikeNPC_Princess: 我喜欢 {NPCName}。
+			// Princess_LovesNPC: 我喜欢 {NPCName}。
+		}
+	}
+
+	AncientTroop.DisplayName: 古代军团
+	AncientTrooper_Melee.DisplayName: 古代士兵
+	AncientTrooper_Ranged.DisplayName: 古代弓箭手
+	YaZi.DisplayName: 睚眦
+	YaZiEye.DisplayName: 睚眦之眼
+	YaZiDebuff.DisplayName: 睚眦必报
+	YaZiSword.DisplayName: 睚眦剑
+	YaZi_Body1.DisplayName: 睚眦
+	YaZi_Body2.DisplayName: 睚眦
+	YaZi_Body3.DisplayName: 睚眦
+	YaZi_Tail1.DisplayName: 睚眦
+	YaZi_Tail2.DisplayName: 睚眦
+}
+
+Bestiary: {
+	AncientSmith: 来自失落文明埃洛伊的工匠，精通战斗、冶炼与艺术。
+	AncientTroop: 来自失落文明埃洛伊的古代战争机器，仍在执行早已无人知晓的命令。
+	AncientTrooper_Melee: 随古代战争机器一同苏醒的埃洛伊近战士兵。
+	AncientTrooper_Ranged: 随古代战争机器一同苏醒的埃洛伊弓箭手。
+	YaZi: 龙生九子，其性好斗，衔刃而行。
+}

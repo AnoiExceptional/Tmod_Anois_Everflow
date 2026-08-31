@@ -1,0 +1,4 @@
+displayName = Anoi's Everflow
+author = Anoi
+version = 0.3.1
+buildIgnore = AssetBackups/*, To-Do.xlsx, icon_small.png, CHANGELOG.md

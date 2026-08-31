@@ -1,0 +1,37 @@
+[h1]Anoi's Everflow[/h1]
+
+Anoi's Everflow 专注于各具特色的复合职业体验。模组中的武器、护甲与召唤物不会被单一职业框定，而是通过近战与召唤、远程与魔法等组合，创造各自不同的战斗循环。我们希望每件装备不只是数值升级，而是拥有鲜明机制与成长空间，让玩家自由探索属于自己的混合流派。
+
+[b]当前版本：0.3 公开测试版[/b]
+欢迎反馈平衡性、多人游戏兼容性及其他游玩问题。
+
+[h2]0.3 更新内容[/h2]
+[list]
+[*]新增Boss“古代军团”：古代战争机器会召集近战与远程士兵协同作战。
+[*]新增Boss“睚眦”：创新的蠕虫类型boss。
+[*]新增基石饰品“水德一气太浩性”，为纯法师带来强大的构筑选择。
+[*]新增五级饰品“军团权柄”、七种罪恶烙印与基石饰品“大罪烙印”，扩展纯召唤师构筑。
+[*]新增“亲密暴击”召唤暴击体系。
+[*]完善螺旋地狱六形态：重新平衡数值与耗魔，新增弹巢切换指示器及多项握持和坐骑对齐修复。
+[*]重新平衡汉堡王并完善馅料免疫、减益清除和特殊伤害结算。
+[*]修正合金二号坦克炮塔抖动、炮管位置、染色和驾驶员隐藏层问题，并完善多项本地化、绘制与多人同步表现。
+[/list]
+
+[h1]English[/h1]
+
+Anoi's Everflow focuses on distinctive hybrid-class gameplay. Weapons, armor, and summons are not confined to a single class; instead, combinations such as melee and summoning or ranged and magic create their own combat loops. Each piece of equipment aims to offer more than a numerical upgrade, with a distinct mechanic and room to grow so players can discover their own mixed playstyles.
+
+[b]Current version: 0.3 — Public Test[/b]
+Feedback on balance, multiplayer compatibility, and gameplay issues is welcome.
+
+[h2]Version 0.3[/h2]
+[list]
+[*]Added the Ancient Troop boss: an ancient war machine that summons melee and ranged soldiers to fight alongside it.
+[*]Added Ya Zi, an innovative dragon boss.
+[*]Added the Foundation accessory Aqua Virtue, offering a powerful build option for pure mages.
+[*]Added five tiers of Legion Authority, seven Sin Brands, and the Foundation accessory Brand of Cardinal Sin, expanding summoner builds.
+[*]Added Bonded Crit, a critical-strike system for summons.
+[*]Completed Spiral Hell's six forms with new balance values and mana costs, a cylinder form-switch indicator, and numerous grip and mounted-alignment fixes.
+[*]Rebalanced Burger King and improved filling immunities, debuff cleansing, and special damage calculations.
+[*]Fixed Alloy Tank No. 2 turret jitter, barrel position, dye support, and driver-layer hiding, alongside further localization, rendering, and multiplayer improvements.
+[/list]
