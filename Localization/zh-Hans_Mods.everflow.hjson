@@ -2,6 +2,26 @@
 # Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
 
 Items: {
+	WyrmBladePow: {
+		DisplayName: 虫眼球
+		// Tooltip: ""
+	}
+
+	WyrmBladeSpear: {
+		DisplayName: 虫戟矛
+		// Tooltip: ""
+	}
+
+	WyrmBladeGreatsword: {
+		DisplayName: 连阙剑
+		Tooltip: 右键以唤醒其真正形态
+	}
+
+	WyrmBladeGreatswordEmpowered: {
+		DisplayName: 连阙剑
+		Tooltip: 右键进行强力斩击
+	}
+
 	Anaklusmos: {
 		DisplayName: 激流剑
 		Tooltip: 一把神秘的剑，用铜铸造？
@@ -54,6 +74,93 @@ Items: {
 	AlloyBar: {
 		DisplayName: 合金锭
 		Tooltip: 有的时候，纯粹不代表极致
+	}
+
+	WyrmBladeSharp: {
+		DisplayName: 虫脊碎片
+		// Tooltip: ""
+	}
+
+	WyrmBladeBar: {
+		DisplayName: 虫脊锭
+		// Tooltip: ""
+	}
+
+	YouFengBreastplate: {
+		DisplayName: 游锋胸甲
+		Tooltip:
+			'''
+			近战伤害提高10%
+			暴击率提高7%
+			'''
+	}
+
+	YouFengLeggings: {
+		DisplayName: 游锋腿甲
+		Tooltip:
+			'''
+			移动速度提高10%
+			加速度提高15%
+			'''
+	}
+
+	YouFengHeadgear: {
+		DisplayName: 游锋头壳
+		Tooltip: 近战伤害提高15%
+		SetBonus:
+			'''
+			防御力提高15
+			受到攻击后获得20%伤害加成，并在5秒内持续衰减至0
+			再次受击只会刷新持续时间，无法叠加
+			'''
+	}
+
+	YouFengHelmet: {
+		DisplayName: 游锋头盔
+		Tooltip:
+			'''
+			近战伤害提高20%
+			远程伤害提高15%
+			暴击率提高10%
+			'''
+		SetBonus:
+			'''
+			攻击速度提高15%
+			受到攻击后获得20%伤害加成，并在5秒内持续衰减至0
+			再次受击只会刷新持续时间，无法叠加
+			'''
+	}
+
+	YouFengMask: {
+		DisplayName: 游锋头罩
+		Tooltip:
+			'''
+			近战伤害提高15%
+			魔法伤害提高10%
+			暴击率提高15%
+			'''
+		SetBonus:
+			'''
+			暴击率提高15%
+			受到攻击后获得20%伤害加成，并在5秒内持续衰减至0
+			再次受击只会刷新持续时间，无法叠加
+			'''
+	}
+
+	YouFengHat: {
+		DisplayName: 游锋头冠
+		Tooltip:
+			'''
+			近战伤害提高15%
+			召唤伤害提高10%
+			暴击率提高10%
+			'''
+		SetBonus:
+			'''
+			移动速度提高20%
+			受到攻击后获得20%伤害加成，并在5秒内持续衰减至0
+			再次受击只会刷新持续时间，无法叠加
+			'''
 	}
 
 	AlloyPickaxe: {
@@ -155,9 +262,14 @@ Items: {
 			'''
 	}
 
-	ThousandBlade: {
+	ThousandBlades: {
 		DisplayName: 魔刀千刃
 		Tooltip: 左键挥砍，右键将刀刃化作千片撕裂敌人
+	}
+
+	WyrmBladeDagger: {
+		DisplayName: 唤锋剑
+		Tooltip: 召唤幻影睚眦剑哨卫，敌人靠近时进行旋转斩击
 	}
 
 	DragonsEdge: {
@@ -234,6 +346,18 @@ Items: {
 			召唤可驾驶的合金二号坦克
 			需要至少1个空闲召唤栏，最多使用3个召唤栏作为乘员组
 			坦克使用20mm机炮造成远程伤害
+			'''
+	}
+
+	MetalTerminator: {
+		DisplayName: 钢铁终结者
+		Tooltip:
+			'''
+			召唤可驾驶的战争载具BMPT-72
+			这辆恐怖的支援战车使用威力无穷的30mm机炮和线控火箭弹发射器摧毁一切
+			需要至少1个空闲召唤栏，最多使用5个召唤栏作为乘员组
+			左键使用机炮造成远程伤害且不消耗弹药
+			右键使用火箭发射架发射并消耗背包中的火箭弹
 			'''
 	}
 
@@ -434,6 +558,21 @@ Items: {
 			穿戴者获得“失乐园”
 			'''
 	}
+
+	AncientTroopRelic: {
+		DisplayName: 古代军团圣物
+		// Tooltip: ""
+	}
+
+	YaZiRelic: {
+		DisplayName: 睚眦圣物
+		// Tooltip: ""
+	}
+
+	WaterSleeves: {
+		DisplayName: 流云飞袖
+		// Tooltip: ""
+	}
 }
 
 UI: {
@@ -491,18 +630,45 @@ Projectiles: {
 	// AncientTrooperMeleeSlash.DisplayName: Ancient Trooper Melee Slash
 	// AncientTrooperArrow.DisplayName: Ancient Trooper Arrow
 	// AncientTrooperRangedBow.DisplayName: Ancient Trooper Bow
-	// ThousandBladeWhipProjectile.DisplayName: Thousand Blade Whip Projectile
+	// ThousandBladesWhipProjectile.DisplayName: Thousand Blades Whip Projectile
+	PhantomYaZiSwordSentry.DisplayName: 幻影睚眦剑
 	// DragonsEdgeLegacyWhipProjectile.DisplayName: Dragons Edge Legacy Whip Projectile
-	// ThousandBladeFlyingNodeProjectile.DisplayName: Thousand Blade Flying Node Projectile
+	// ThousandBladesFlyingNodeProjectile.DisplayName: Thousand Blades Flying Node Projectile
 	YaZiSword.DisplayName: 睚眦剑
 	AquaVirtueFallingStar.DisplayName: 箕水豹
 	// AquaVirtueEffectProjectile.DisplayName: Aqua Virtue Effect Projectile
 	// SpiralHellCylinderAmmunition.DisplayName: Spiral Hell Cylinder Ammunition
 	// SpiralHellCylinderChamber.DisplayName: Spiral Hell Cylinder Chamber
 	// SpiralHellCylinderTentacles.DisplayName: Spiral Hell Cylinder Tentacles
+	// WyrmBladeCharge.DisplayName: Wyrm Blade Charge
+	// WyrmBladeGreatswordSwingTrail.DisplayName: Wyrm Blade Greatsword Swing Trail
+	// WyrmBladeGreatswordProjectile2.DisplayName: Wyrm Blade Greatsword Projectile2
+	// WyrmBladeGreatswordProjectile1.DisplayName: Wyrm Blade Greatsword Projectile1
+	// WyrmBladeSpearProjectile.DisplayName: Wyrm Blade Spear Projectile
+	// WyrmBladeSpearSwingProjectile.DisplayName: Wyrm Blade Spear Swing Projectile
+	// BMPT72AutocannonBullet.DisplayName: B M P T72 Autocannon Bullet
+	// WyrmBladeSpearEruptionProjectile.DisplayName: Wyrm Blade Spear Eruption Projectile
+	// WaterSleevesProjectile.DisplayName: Water Sleeves Projectile
+	// WaterSleevesSpinProjectile.DisplayName: Water Sleeves Spin Projectile
+	// PhantomYaZiSwordIdleVisual.DisplayName: Phantom Ya Zi Sword Idle Visual
+	// PhantomYaZiSwordSlashVisual.DisplayName: Phantom Ya Zi Sword Slash Visual
+	// WyrmBladeDaggerProjectile.DisplayName: Wyrm Blade Dagger Projectile
+	// WyrmBladePowProjectile.DisplayName: Wyrm Blade Pow Projectile
+	// WyrmBladePowEnchantedBeam.DisplayName: Wyrm Blade Pow Enchanted Beam
 }
 
 Buffs: {
+	TheRuneBladeBuff: {
+		DisplayName: 咒文剑刃
+		Description: 连阙剑处于咒文强化形态
+	}
+
+	YouFengBuff: {
+		DisplayName: 游刃
+		Description: 受到攻击后，伤害加成随时间持续衰减
+		CurrentBonus: 当前伤害加成：{0:0.0}%
+	}
+
 	SinBrandBuff: {
 		DisplayName: 失乐园
 		Description: 20格内每个召唤物提供5防御，20格外每个召唤物提供5%召唤伤害
@@ -555,6 +721,21 @@ Buffs: {
 			'''
 	}
 
+	BMPT72Buff: {
+		DisplayName: 钢铁终结者
+		Description:
+			'''
+			当前乘员组为{0}人，远程伤害、召唤伤害和移动速度提高{1}%
+			防御力提高50
+			“创烂地面”
+			'''
+	}
+
+	IRSightBuff: {
+		DisplayName: 红外热成像
+		Description: 用红外热成像仪观察
+	}
+
 	BurgerKingMealBuff: {
 		DisplayName: 汉堡盛宴
 		Description: 当前汉堡馅料与食材组合的效果正在生效
@@ -571,7 +752,10 @@ Buffs: {
 	}
 }
 
-Mounts.AlloyTank02.DisplayName: 合金二号坦克
+Mounts: {
+	AlloyTank02.DisplayName: 合金二号坦克
+	BMPT72.DisplayName: BMPT-72
+}
 
 NPCs: {
 	AncientSmith: {
@@ -616,3 +800,5 @@ Bestiary: {
 	AncientTrooper_Ranged: 随古代战争机器一同苏醒的埃洛伊弓箭手。
 	YaZi: 龙生九子，其性好斗，衔刃而行。
 }
+
+DamageClasses.MagicalMeleeDamageClass.DisplayName: 魔法近战伤害

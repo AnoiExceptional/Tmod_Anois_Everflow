@@ -1,3 +1,3 @@
-Anoi's Everflow 专注于各具特色的复合职业体验：武器、护甲与召唤物不再被单一职业框定，而是以近战与召唤、远程与魔法等组合创造独特的战斗循环。每件装备都力求拥有鲜明机制与成长空间，让玩家自由探索属于自己的混合流派。当前为0.3.1公开测试版，欢迎反馈平衡性与游玩问题。
+Anoi's Everflow 专注于各具特色的复合职业体验：武器、护甲与召唤物不再被单一职业框定，而是以近战与召唤、远程与魔法等组合创造独特的战斗循环。每件装备都力求拥有鲜明机制与成长空间，让玩家自由探索属于自己的混合流派。当前为0.3.2公开测试版，欢迎反馈平衡性与游玩问题。
 
-Anoi's Everflow focuses on distinctive hybrid-class gameplay. Its weapons, armor, and summons combine roles such as melee and summoning or ranged and magic into unique combat loops, encouraging players to discover their own mixed playstyles. Version 0.3.1 is a public test release; balance and bug feedback is welcome.
+Anoi's Everflow focuses on distinctive hybrid-class gameplay. Its weapons, armor, and summons combine roles such as melee and summoning or ranged and magic into unique combat loops, encouraging players to discover their own mixed playstyles. Version 0.3.2 is a public test release; balance and bug feedback is welcome.

@@ -9,7 +9,7 @@ using everflow.Common.Combat;
 
 namespace everflow.Content.Projectiles
 {
-    public class ThousandBladeWhipProjectile : ChainSwordProjectile
+    public class ThousandBladesWhipProjectile : ChainSwordProjectile
     {
         private const int FrameWidth = 18;
         private const int FrameHeight = 30;
@@ -34,7 +34,7 @@ namespace everflow.Content.Projectiles
         protected override Color NodeGlowColor => ThemeColor;
 
         public override string Texture =>
-            "everflow/Content/Projectiles/ThousandBladeProjectile";
+            "everflow/Content/Projectiles/ThousandBladesProjectile";
 
         protected override void ConfigureChainSwordProjectile()
         {
@@ -123,7 +123,7 @@ namespace everflow.Content.Projectiles
                     Projectile.GetSource_FromThis(),
                     spawnPosition,
                     velocity,
-                    ModContent.ProjectileType<ThousandBladeFlyingNodeProjectile>(),
+                    ModContent.ProjectileType<ThousandBladesFlyingNodeProjectile>(),
                     damage,
                     Projectile.knockBack,
                     owner.whoAmI,

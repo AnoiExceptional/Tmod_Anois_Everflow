@@ -399,6 +399,8 @@ namespace everflow.Content.NPCs.Bosses
 
         public override void ModifyNPCLoot(NPCLoot npcLoot)
         {
+            npcLoot.Add(ItemDropRule.MasterModeCommonDrop(
+                ModContent.ItemType<global::everflow.Content.Items.Relics.AncientTroopRelic>()));
             AddZeroToMaximumDrop(npcLoot, ItemID.CopperOre, 100);
             AddZeroToMaximumDrop(npcLoot, ItemID.TinOre, 100);
             AddZeroToMaximumDrop(npcLoot, ItemID.IronOre, 80);

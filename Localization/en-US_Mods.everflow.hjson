@@ -2,6 +2,26 @@
 # Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
 
 Items: {
+	WyrmBladePow: {
+		DisplayName: Eye of Wyrm
+		Tooltip: ""
+	}
+
+	WyrmBladeSpear: {
+		DisplayName: The Spine Spear
+		Tooltip: ""
+	}
+
+	WyrmBladeGreatsword: {
+		DisplayName: The Rune Blade
+		Tooltip: Rightclick to reveal its true form
+	}
+
+	WyrmBladeGreatswordEmpowered: {
+		DisplayName: The Rune Blade
+		Tooltip: Rightclick to unleash an empowered slash
+	}
+
 	Anaklusmos: {
 		DisplayName: Anaklusmos
 		Tooltip: mysterious blade, made of copper?
@@ -54,6 +74,93 @@ Items: {
 	AlloyBar: {
 		DisplayName: Alloy Bar
 		Tooltip: sometimes pure doesn't mean good
+	}
+
+	WyrmBladeSharp: {
+		DisplayName: Wyrm Spine Fragment
+		Tooltip: ""
+	}
+
+	WyrmBladeBar: {
+		DisplayName: Wyrm Spine Bar
+		Tooltip: ""
+	}
+
+	YouFengBreastplate: {
+		DisplayName: You Feng Breastplate
+		Tooltip:
+			'''
+			10% increased melee damage
+			7% increased critical strike chance
+			'''
+	}
+
+	YouFengLeggings: {
+		DisplayName: You Feng Leggings
+		Tooltip:
+			'''
+			10% increased movement speed
+			15% increased acceleration
+			'''
+	}
+
+	YouFengHeadgear: {
+		DisplayName: You Feng Headgear
+		Tooltip: 15% increased melee damage
+		SetBonus:
+			'''
+			15 increased defense
+			After taking damage, gain up to 20% increased damage that fades to 0 over 5 seconds
+			Further hits refresh the duration instead of stacking
+			'''
+	}
+
+	YouFengHelmet: {
+		DisplayName: You Feng Helmet
+		Tooltip:
+			'''
+			20% increased melee damage
+			15% increased ranged damage
+			10% increased critical strike chance
+			'''
+		SetBonus:
+			'''
+			15% increased attack speed
+			After taking damage, gain up to 20% increased damage that fades to 0 over 5 seconds
+			Further hits refresh the duration instead of stacking
+			'''
+	}
+
+	YouFengMask: {
+		DisplayName: You Feng Mask
+		Tooltip:
+			'''
+			15% increased melee damage
+			10% increased magic damage
+			15% increased critical strike chance
+			'''
+		SetBonus:
+			'''
+			15% increased critical strike chance
+			After taking damage, gain up to 20% increased damage that fades to 0 over 5 seconds
+			Further hits refresh the duration instead of stacking
+			'''
+	}
+
+	YouFengHat: {
+		DisplayName: You Feng Hat
+		Tooltip:
+			'''
+			15% increased melee damage
+			10% increased summon damage
+			10% increased critical strike chance
+			'''
+		SetBonus:
+			'''
+			20% increased movement speed
+			After taking damage, gain up to 20% increased damage that fades to 0 over 5 seconds
+			Further hits refresh the duration instead of stacking
+			'''
 	}
 
 	AlloyPickaxe: {
@@ -155,9 +262,14 @@ Items: {
 			'''
 	}
 
-	ThousandBlade: {
-		DisplayName: Thousand Blade
-		Tooltip: Left click to slash; right click to tear enemies with a thousand blade fragments
+	ThousandBlades: {
+		DisplayName: Thousand Blades
+		Tooltip: Left click to slash; right click to tear enemies with fragments of the Thousand Blades
+	}
+
+	WyrmBladeDagger: {
+		DisplayName: Wyrm Blade Dagger
+		Tooltip: Summons a Phantom Ya Zi Sword sentry that performs a spinning slash when enemies approach
 	}
 
 	DragonsEdge: {
@@ -234,6 +346,18 @@ Items: {
 			Summons the maneuverable Alloy Tank Mk. II
 			Requires at least 1 free minion slot and uses up to 3 slots as crew
 			Tank uses 20mm gun to deal ranged damage
+			'''
+	}
+
+	MetalTerminator: {
+		DisplayName: Metal Terminator
+		Tooltip:
+			'''
+			Summons the maneuverable BMPT-72 combat vehicle
+			This terrifying support vehicle annihilates everything with its devastating 30mm autocannon and wire-guided rocket launcher
+			Requires at least 1 free minion slot and uses up to 5 slots as crew
+			Left click fires the autocannon without consuming ammunition
+			Right click fires and consumes rockets from your inventory
 			'''
 	}
 
@@ -434,6 +558,21 @@ Items: {
 			Grants the wearer “Paradise Lost”
 			'''
 	}
+
+	AncientTroopRelic: {
+		DisplayName: Ancient Troop Relic
+		Tooltip: ""
+	}
+
+	YaZiRelic: {
+		DisplayName: Ya Zi Relic
+		Tooltip: ""
+	}
+
+	WaterSleeves: {
+		DisplayName: Water Sleeves
+		Tooltip: ""
+	}
 }
 
 UI: {
@@ -491,18 +630,45 @@ Projectiles: {
 	AncientTrooperMeleeSlash.DisplayName: Ancient Trooper Melee Slash
 	AncientTrooperArrow.DisplayName: Ancient Trooper Arrow
 	AncientTrooperRangedBow.DisplayName: Ancient Trooper Bow
-	ThousandBladeWhipProjectile.DisplayName: Thousand Blade Whip Projectile
+	ThousandBladesWhipProjectile.DisplayName: Thousand Blades Whip Projectile
+	PhantomYaZiSwordSentry.DisplayName: Phantom Ya Zi Sword
 	DragonsEdgeLegacyWhipProjectile.DisplayName: Dragons Edge Legacy Whip Projectile
-	ThousandBladeFlyingNodeProjectile.DisplayName: Thousand Blade Flying Node Projectile
+	ThousandBladesFlyingNodeProjectile.DisplayName: Thousand Blades Flying Node Projectile
 	YaZiSword.DisplayName: Ya Zi Sword
 	AquaVirtueFallingStar.DisplayName: Aqua Virtue Falling Star
 	AquaVirtueEffectProjectile.DisplayName: Aqua Virtue Effect Projectile
 	SpiralHellCylinderAmmunition.DisplayName: Spiral Hell Cylinder Ammunition
 	SpiralHellCylinderChamber.DisplayName: Spiral Hell Cylinder Chamber
 	SpiralHellCylinderTentacles.DisplayName: Spiral Hell Cylinder Tentacles
+	WyrmBladeCharge.DisplayName: Wyrm Blade Charge
+	WyrmBladeGreatswordSwingTrail.DisplayName: Wyrm Blade Greatsword Swing Trail
+	WyrmBladeGreatswordProjectile2.DisplayName: Wyrm Blade Greatsword Projectile2
+	WyrmBladeGreatswordProjectile1.DisplayName: Wyrm Blade Greatsword Projectile1
+	WyrmBladeSpearProjectile.DisplayName: Wyrm Blade Spear Projectile
+	WyrmBladeSpearSwingProjectile.DisplayName: Wyrm Blade Spear Swing Projectile
+	BMPT72AutocannonBullet.DisplayName: B M P T72 Autocannon Bullet
+	WyrmBladeSpearEruptionProjectile.DisplayName: Wyrm Blade Spear Eruption Projectile
+	WaterSleevesProjectile.DisplayName: Water Sleeves Projectile
+	WaterSleevesSpinProjectile.DisplayName: Water Sleeves Spin Projectile
+	PhantomYaZiSwordIdleVisual.DisplayName: Phantom Ya Zi Sword Idle Visual
+	PhantomYaZiSwordSlashVisual.DisplayName: Phantom Ya Zi Sword Slash Visual
+	WyrmBladeDaggerProjectile.DisplayName: Wyrm Blade Dagger Projectile
+	WyrmBladePowProjectile.DisplayName: Wyrm Blade Pow Projectile
+	WyrmBladePowEnchantedBeam.DisplayName: Wyrm Blade Pow Enchanted Beam
 }
 
 Buffs: {
+	TheRuneBladeBuff: {
+		DisplayName: Runic Blade
+		Description: The Rune Blade is in its empowered form
+	}
+
+	YouFengBuff: {
+		DisplayName: Edgerunner
+		Description: After taking damage, the damage bonus continually fades over time
+		CurrentBonus: Current damage bonus: {0:0.0}%
+	}
+
 	SinBrandBuff: {
 		DisplayName: Paradise Lost
 		Description: Each summon within 20 tiles grants 5 defense; each summon beyond 20 tiles grants 5% summon damage
@@ -555,6 +721,21 @@ Buffs: {
 			'''
 	}
 
+	BMPT72Buff: {
+		DisplayName: Metal Terminator
+		Description:
+			'''
+			Current crew: {0}; ranged damage, summon damage, and movement speed increased by {1}%
+			Defense increased by 50
+			"Smash the ground forces"
+			'''
+	}
+
+	IRSightBuff: {
+		DisplayName: IR Thermal Imaging
+		Description: Observe via Infrared Thermal Imaging scope
+	}
+
 	BurgerKingMealBuff: {
 		DisplayName: Burger Feast
 		Description: The effects of the current fillings and ingredient sets are active
@@ -571,7 +752,10 @@ Buffs: {
 	}
 }
 
-Mounts.AlloyTank02.DisplayName: Alloy Tank Mk. II
+Mounts: {
+	AlloyTank02.DisplayName: Alloy Tank Mk. II
+	BMPT72.DisplayName: BMPT-72
+}
 
 NPCs: {
 	AncientSmith: {
@@ -616,3 +800,5 @@ Bestiary: {
 	AncientTrooper_Ranged: An Alloyan archer awakened alongside the ancient war machine.
 	YaZi: One of the nine sons of the dragon, born with an unending hunger for battle.
 }
+
+DamageClasses.MagicalMeleeDamageClass.DisplayName: magical melee damage

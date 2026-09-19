@@ -9,7 +9,7 @@ using everflow.Content.Projectiles;
 
 namespace everflow.Content.Items
 {
-    public class ThousandBlade : ModItem
+    public class ThousandBlades : ModItem
     {
         private bool rightAttackActive;
         private ChainSwordSwingState chainSwordSwingState;
@@ -39,7 +39,7 @@ namespace everflow.Content.Items
             Item.autoReuse = true;
             Item.noMelee = false;
             Item.noUseGraphic = false;
-            Item.shoot = ModContent.ProjectileType<ThousandBladeWhipProjectile>();
+            Item.shoot = ModContent.ProjectileType<ThousandBladesWhipProjectile>();
             Item.shootSpeed = 8f;
             Item.value = Item.sellPrice(gold: 5);
             Item.rare = ItemRarityID.Pink;
@@ -56,7 +56,7 @@ namespace everflow.Content.Items
             if (input.Mode == AlloySwordInputPlayer.SwordInputMode.Right)
             {
                 currentRightSwingReversed = chainSwordSwingState.PreviewNext(
-                    ThousandBladeWhipProjectile.ChainSwordStyle.AlternateReverse);
+                    ThousandBladesWhipProjectile.ChainSwordStyle.AlternateReverse);
                 SetRightAttack();
             }
             else
@@ -109,7 +109,7 @@ namespace everflow.Content.Items
             Item.UseSound = SoundID.Item71;
             Item.noMelee = false;
             Item.noUseGraphic = true;
-            Item.shoot = ModContent.ProjectileType<ThousandBladeWhipProjectile>();
+            Item.shoot = ModContent.ProjectileType<ThousandBladesWhipProjectile>();
             Item.shootSpeed = 8f;
         }
 
@@ -126,7 +126,7 @@ namespace everflow.Content.Items
             Item.UseSound = SoundID.Item1;
             Item.noMelee = false;
             Item.noUseGraphic = false;
-            Item.shoot = ModContent.ProjectileType<ThousandBladeWhipProjectile>();
+            Item.shoot = ModContent.ProjectileType<ThousandBladesWhipProjectile>();
             Item.shootSpeed = 8f;
         }
 
@@ -144,7 +144,7 @@ namespace everflow.Content.Items
                 return false;
 
             currentRightSwingReversed = chainSwordSwingState.Advance(
-                ThousandBladeWhipProjectile.ChainSwordStyle.AlternateReverse);
+                ThousandBladesWhipProjectile.ChainSwordStyle.AlternateReverse);
 
             Projectile.NewProjectile(
                 source,

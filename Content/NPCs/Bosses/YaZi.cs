@@ -2,12 +2,14 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System.IO;
 using everflow.Content.Gores;
+using everflow.Content.Items.Materials;
 using everflow.Content.Players;
 using everflow.Content.Projectiles;
 using Terraria;
 using Terraria.Audio;
 using Terraria.DataStructures;
 using Terraria.GameContent.Bestiary;
+using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -201,6 +203,17 @@ namespace everflow.Content.NPCs.Bosses
         {
             // Boss被击败后，所有玩家身上的“睚眦必报”立即失效。
             YaZiRetributionPlayer.ClearAllPlayers();
+        }
+
+        public override void ModifyNPCLoot(NPCLoot npcLoot)
+        {
+            npcLoot.Add(ItemDropRule.MasterModeCommonDrop(
+                ModContent.ItemType<global::everflow.Content.Items.Relics.YaZiRelic>()));
+            npcLoot.Add(ItemDropRule.Common(
+                ModContent.ItemType<WyrmBladeSharp>(),
+                chanceDenominator: 1,
+                minimumDropped: 25,
+                maximumDropped: 50));
         }
 
         public override bool PreDraw(

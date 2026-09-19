@@ -17,7 +17,7 @@ namespace everflow.Content.Items
         {
             Item.width = 32;
             Item.height = 32;
-            Item.maxStack = 20;
+            Item.maxStack = 1;
             // 在下刺命中地面的动画节点手动消耗，避免按键瞬间就失去物品。
             Item.consumable = false;
             Item.useStyle = ItemUseStyleID.Shoot;

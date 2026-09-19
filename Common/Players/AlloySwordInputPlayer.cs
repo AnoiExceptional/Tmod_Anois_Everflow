@@ -31,7 +31,7 @@ namespace everflow.Common.Players
                 heldItemType == ModContent.ItemType<AlloySword>() ||
                 heldItemType == ModContent.ItemType<AlloyChainsword>() ||
                 heldItemType == ModContent.ItemType<DragonsEdge>() ||
-                heldItemType == ModContent.ItemType<ThousandBlade>() ||
+                heldItemType == ModContent.ItemType<ThousandBlades>() ||
                 heldItemType == ModContent.ItemType<AlloyDagger>() ||
                 heldItemType == ModContent.ItemType<AlloyXbow>() ||
                 heldItemType == ModContent.ItemType<AlloyWand>();
@@ -121,8 +121,8 @@ namespace everflow.Common.Players
         {
             if (Player.itemAnimation <= 0 ||
                 Player.itemAnimationMax <= 0 ||
-                Player.HeldItem.type != ModContent.ItemType<ThousandBlade>() ||
-                !HasActiveReversedThousandBladeWhip())
+                Player.HeldItem.type != ModContent.ItemType<ThousandBlades>() ||
+                !HasActiveReversedThousandBladesWhip())
             {
                 return;
             }
@@ -144,10 +144,10 @@ namespace everflow.Common.Players
             Player.bodyFrame.Y = Player.bodyFrame.Height * reversedFrame;
         }
 
-        private bool HasActiveReversedThousandBladeWhip()
+        private bool HasActiveReversedThousandBladesWhip()
         {
             int projectileType =
-                ModContent.ProjectileType<ThousandBladeWhipProjectile>();
+                ModContent.ProjectileType<ThousandBladesWhipProjectile>();
 
             for (int i = 0; i < Main.maxProjectiles; i++)
             {

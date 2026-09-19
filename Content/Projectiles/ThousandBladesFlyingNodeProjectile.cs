@@ -8,14 +8,14 @@ using Terraria.ModLoader;
 
 namespace everflow.Content.Projectiles
 {
-    public class ThousandBladeFlyingNodeProjectile : ModProjectile
+    public class ThousandBladesFlyingNodeProjectile : ModProjectile
     {
         private const int FrameWidth = 18;
         private const int FrameHeight = 30;
         private static readonly Color ThemeColor = new(156, 139, 219);
 
         public override string Texture =>
-            "everflow/Content/Projectiles/ThousandBladeProjectile";
+            "everflow/Content/Projectiles/ThousandBladesProjectile";
 
         public override void SetStaticDefaults()
         {
