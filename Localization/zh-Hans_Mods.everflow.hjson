@@ -2,6 +2,85 @@
 # Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
 
 Items: {
+	ZhangEJade: {
+		DisplayName: 章莪玉
+		Tooltip: 在地表使用以召唤狰狞
+	}
+
+	SolarBladeBlue: {
+		DisplayName: 太阳剑-参宿七
+		Tooltip: 右键展开原力护盾
+	}
+
+	SolarBladeRed: {
+		DisplayName: 太阳剑-心宿二
+		Tooltip: 右键展开原力护盾
+	}
+
+	SolarBladeGreen: {
+		DisplayName: 太阳剑-氐宿四
+		Tooltip: 右键展开原力护盾
+	}
+
+	SolarBladePurple: {
+		DisplayName: 太阳剑-角宿一
+		Tooltip: 右键展开原力护盾
+	}
+
+	SolarBladeWhite: {
+		DisplayName: 太阳剑-天狼星
+		Tooltip: 右键展开原力护盾
+	}
+
+	SolarBladeYellow: {
+		DisplayName: 太阳剑-五车二
+		Tooltip: 右键展开原力护盾
+	}
+
+	SolarBladeOrange: {
+		DisplayName: 太阳剑-大角星
+		Tooltip: 右键展开原力护盾
+	}
+
+	UmbrellaSword: {
+		DisplayName: 伞剑
+		Tooltip: 右键快速撑伞格挡敌怪的接触攻击
+	}
+
+	AnubisStaff: {
+		DisplayName: 阿努比斯权杖
+		Tooltip: 镰形剑弹幕击杀敌人时恢复50魔力；右键消耗50魔力和2召唤栏召出禁戒幻影
+	}
+
+	HeartOfPureWorld: {
+		DisplayName: 纯净世界之心
+		Tooltip: 泰拉刃的攻速不再受到世界污染程度影响
+	}
+
+	HeartOfTheWorld: {
+		DisplayName: 世界之心
+		Tooltip: 挥舞泰拉刃时消耗1绿色溶液，暂时解放其在纯净世界中的完整攻速
+	}
+
+	ArcticPillar: {
+		DisplayName: 北天玄极
+		Tooltip:
+			'''
+			左键发射冰雪标枪，右键蓄力创造冰柱
+			“世界之轴”
+			'''
+	}
+
+	GlacialLament: {
+		DisplayName: 悲鸣冰川
+		Tooltip:
+			'''
+			子弹使敌人陷入霜火和冷冻
+			每第六颗子弹额外使敌人陷入冰冻
+			右键发射冰冻爆破弹与六枚散射子弹
+			'''
+	}
+
 	WyrmBladePow: {
 		DisplayName: 虫眼球
 		// Tooltip: ""
@@ -270,6 +349,17 @@ Items: {
 	WyrmBladeDagger: {
 		DisplayName: 唤锋剑
 		Tooltip: 召唤幻影睚眦剑哨卫，敌人靠近时进行旋转斩击
+	}
+
+	SethSword: {
+		DisplayName: 赛特之剑
+		Tooltip:
+			'''
+			左键快速攻击会逐渐提升武器伤害
+			右键挥舞链剑，使仆从集中攻击命中的敌人
+			25召唤标记伤害
+			15%召唤标记亲密暴击率
+			'''
 	}
 
 	DragonsEdge: {
@@ -575,6 +665,11 @@ Items: {
 	}
 }
 
+DropConditions: {
+	ZhangEJade: 世纪之花后，在地下层或洞穴层击败敌怪
+	YaZiBrokenDagger: 世纪之花后，由昆虫或其他节肢动物形态的敌怪掉落
+}
+
 UI: {
 	AquaVirtueQuote: 九五，坎不盈，祗既平，无咎
 	Foundation: 基石
@@ -589,6 +684,7 @@ UI: {
 }
 
 Projectiles: {
+	AnubisStaffProjectile.DisplayName: 阿努比斯镰刃
 	// SpiralHellProjectile2.DisplayName: Spiral Hell Magic Shell
 	// SpiralHellProjectile3.DisplayName: Spiral Hell Sniper Laser
 	// SpiralHellProjectile4.DisplayName: Spiral Hell Radiant Shard
@@ -655,9 +751,42 @@ Projectiles: {
 	// WyrmBladeDaggerProjectile.DisplayName: Wyrm Blade Dagger Projectile
 	// WyrmBladePowProjectile.DisplayName: Wyrm Blade Pow Projectile
 	// WyrmBladePowEnchantedBeam.DisplayName: Wyrm Blade Pow Enchanted Beam
+	// ArcticPillarHeldProjectile.DisplayName: Arctic Pillar Held Projectile
+	// ArcticPillarSnowflakeProjectile.DisplayName: Arctic Pillar Snowflake Projectile
+	// ArcticPillarSpearProjectile.DisplayName: Arctic Pillar Spear Projectile
+	// ArcticPillarOrbitSnowflakeVisual.DisplayName: Arctic Pillar Orbit Snowflake Visual
+	// ArcticPillarChargeProjectile.DisplayName: Arctic Pillar Charge Projectile
+	// ArcticPillarGiantIceSpikeProjectile.DisplayName: Arctic Pillar Giant Ice Spike Projectile
+	// JadeArrow.DisplayName: Jade Arrow
+	// JadeInkFlame.DisplayName: Jade Ink Flame
+	// JadeRocket.DisplayName: Jade Rocket
+	// AnubisManaReturnProjectile.DisplayName: Anubis Mana Return Projectile
+	// UmbrellaSwordBlockProjectile.DisplayName: Umbrella Sword Block Projectile
+	// PhasebladeForceShieldProjectile.DisplayName: Phaseblade Force Shield Projectile
+	// SolarBladeAttackProjectile.DisplayName: Solar Blade Attack Projectile
+	// SethSwordProjectile.DisplayName: Seth Sword Projectile
+	ZhengNingFallingGemProjectile.DisplayName: 狰狞玉藏
+	ZhengNingTopazExplosionProjectile.DisplayName: 狰狞玉藏
+	// AnubisForbiddenPhantom.DisplayName: Anubis Forbidden Phantom
+	// GlacialLamentSpecialProjectile.DisplayName: Glacial Lament Special Projectile
 }
 
 Buffs: {
+	EnergyCutDebuff: {
+		DisplayName: 能量切割
+		Description: 每层使防御力降低1，最多叠加30层
+	}
+
+	MonsterChilledDebuff: {
+		DisplayName: 冷冻
+		Description: 移动速度降低
+	}
+
+	MonsterFrozenDebuff: {
+		DisplayName: 冰冻
+		Description: 被寒冰禁锢在原地
+	}
+
 	TheRuneBladeBuff: {
 		DisplayName: 咒文剑刃
 		Description: 连阙剑处于咒文强化形态
@@ -750,6 +879,11 @@ Buffs: {
 		DisplayName: 睚眦必报
 		Description: Mods.everflow.Buffs.YaZiDebuff.Description
 	}
+
+	SethSwordTag: {
+		// DisplayName: Seth Sword Tag
+		// Description: Mods.everflow.Buffs.SethSwordTag.Description
+	}
 }
 
 Mounts: {
@@ -783,6 +917,12 @@ NPCs: {
 	AncientTrooper_Melee.DisplayName: 古代士兵
 	AncientTrooper_Ranged.DisplayName: 古代弓箭手
 	YaZi.DisplayName: 睚眦
+	ZhengNing.DisplayName: 狰狞
+	ZhengNingNephrite.DisplayName: 和田玉
+	ZhengNingSerpentine.DisplayName: 岫玉
+	ZhengNingHeliotrope.DisplayName: 鸡血石
+	ZhengNingDarkNephrite.DisplayName: 墨玉
+	ZhengNingAshJade.DisplayName: 烟青玉
 	YaZiEye.DisplayName: 睚眦之眼
 	YaZiDebuff.DisplayName: 睚眦必报
 	YaZiSword.DisplayName: 睚眦剑
@@ -799,6 +939,16 @@ Bestiary: {
 	AncientTrooper_Melee: 随古代战争机器一同苏醒的埃洛伊近战士兵。
 	AncientTrooper_Ranged: 随古代战争机器一同苏醒的埃洛伊弓箭手。
 	YaZi: 龙生九子，其性好斗，衔刃而行。
+	ZhengNing: 伏身蓄势，以撕裂大地的重压扑向猎物。
 }
 
 DamageClasses.MagicalMeleeDamageClass.DisplayName: 魔法近战伤害
+ForceShieldTooltip: 右键展开原力护盾
+TerraBladePollutionTooltip: 因为世界的污染而失去了部分力量……
+TerraBladeWateredTooltip: 小小的世界种子因浇灌而获得些许力量...
+TerraBladeThirstyTooltip: 小小的世界种子渴望得到浇灌...
+TerraBladePureWorldTooltip:
+	'''
+	力量回来了，不多，但够用
+	“以世界之名”
+	'''

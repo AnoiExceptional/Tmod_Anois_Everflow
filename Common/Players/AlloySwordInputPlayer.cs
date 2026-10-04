@@ -32,6 +32,7 @@ namespace everflow.Common.Players
                 heldItemType == ModContent.ItemType<AlloyChainsword>() ||
                 heldItemType == ModContent.ItemType<DragonsEdge>() ||
                 heldItemType == ModContent.ItemType<ThousandBlades>() ||
+                heldItemType == ModContent.ItemType<SethSword>() ||
                 heldItemType == ModContent.ItemType<AlloyDagger>() ||
                 heldItemType == ModContent.ItemType<AlloyXbow>() ||
                 heldItemType == ModContent.ItemType<AlloyWand>();

@@ -2,36 +2,36 @@
 
 Anoi's Everflow 专注于各具特色的复合职业体验。模组中的武器、护甲与召唤物不会被单一职业框定，而是通过近战与召唤、远程与魔法等组合，创造各自不同的战斗循环。我们希望每件装备不只是数值升级，而是拥有鲜明机制与成长空间，让玩家自由探索属于自己的混合流派。
 
-[b]当前版本：0.3.2 公开测试版[/b]
+[b]当前版本：0.3.3 公开测试版[/b]
 欢迎反馈平衡性、多人游戏兼容性及其他游玩问题。
 
-[h2]0.3.2 更新内容[/h2]
+[h2]0.3.3 更新内容[/h2]
 [list]
-[*]新增虫脊碎片、虫脊锭及可放置虫脊锭物块。
-[*]新增游锋套装，包含四种面向不同职业组合的头部变体和受到攻击后触发的“游刃”效果。
-[*]新增连阙剑、虫戟矛、虫眼球、唤锋剑与流云飞袖等复合机制武器。
-[*]新增战争载具BMPT-72，配备30毫米机炮、线控火箭弹、动态引擎和高速冲撞能力。
-[*]新增红外热成像系统，对环境、生物、载具、岩浆、火焰及各类弹药进行分级热源显示。
-[*]新增古代军团圣物与睚眦圣物。
-[*]新增魔法近战伤害类型，同时继承魔法与近战的完整属性加成。
-[*]修复多件武器的攻速继承、碰撞范围、绘制层、握持位置、自动连续使用和多人表现问题。
+[*]新增Boss“狰狞”、五块独立玉石尾巴、玉石专属攻击、二阶段宝石雨及召唤物“章莪玉”。
+[*]新增悲鸣冰川、北天玄极、阿努比斯权杖、赛特之剑和七色太阳剑等四柱阶段武器。
+[*]新增面向敌怪的冷冻与冰冻控制，以及防止连续无限冰冻的持续时间衰减机制。
+[*]为原版陨石光剑、晶光刃和太阳剑加入原力护盾；太阳剑能够反弹符合条件的一次性敌对射弹。
+[*]新增“能量切割”减益，太阳剑命中可叠加降低敌怪防御。
+[*]泰拉刃攻速现在受世界污染程度影响；新增世界之心和纯净世界之心用于恢复其力量。
+[*]新增伞剑，可主动格挡正面接触攻击，并在向上撑伞时减缓坠落。
+[*]调整神秘的匕首获取方式，并修复多件复合武器的输入、绘制、攻速、碰撞及独立无敌帧问题。
 [/list]
 
 [h1]English[/h1]
 
 Anoi's Everflow focuses on distinctive hybrid-class gameplay. Weapons, armor, and summons are not confined to a single class; instead, combinations such as melee and summoning or ranged and magic create their own combat loops. Each piece of equipment aims to offer more than a numerical upgrade, with a distinct mechanic and room to grow so players can discover their own mixed playstyles.
 
-[b]Current version: 0.3.2 — Public Test[/b]
+[b]Current version: 0.3.3 — Public Test[/b]
 Feedback on balance, multiplayer compatibility, and gameplay issues is welcome.
 
-[h2]Version 0.3.2[/h2]
+[h2]Version 0.3.3[/h2]
 [list]
-[*]Added Wyrm Spine Fragments, Wyrm Spine Bars, and a placeable bar tile.
-[*]Added the You Feng armor set with four headpiece variants for different hybrid-class builds and the reactive Edgerunner set effect.
-[*]Added Wyrm Blade Greatsword, Wyrm Blade Spear, Eye of Wyrm, Wyrm Blade Dagger, and Water Sleeves.
-[*]Added the BMPT-72 war vehicle with a 30 mm autocannon, guided rockets, dynamic engine audio, and high-speed ramming damage.
-[*]Added IR Thermal Imaging with separate rendering rules for terrain, creatures, vehicles, lava, fire, ammunition, and cold light sources.
-[*]Added Ancient Troop and Ya Zi relics.
-[*]Added Magical Melee damage, inheriting the complete bonuses of both melee and magic damage classes.
-[*]Fixed attack-speed inheritance, collision ranges, draw layers, grip positions, automatic reuse, and multiplayer behavior across multiple weapons.
+[*]Added the Zheng Ning boss, five independent jade tails, unique jade attacks, a phase-two gem rain, and the Jade of Zhang'E summoning item.
+[*]Added Glacial Lament, Arctic Pillar, Anubis Staff, Seth Sword, and seven Solar Blades as post-Golem/pillar-tier weapons.
+[*]Added NPC-oriented Chilled and Frozen control effects with diminishing repeated-freeze duration.
+[*]Added force shields to vanilla Phaseblades, Phasesabers, and Solar Blades; Solar Blade shields can reflect eligible one-use hostile projectiles.
+[*]Added Energy Cut, stacking defense reduction on Solar Blade hits.
+[*]Terra Blade attack speed now reacts to world evil; Heart of the World and Heart of a Pure World can restore its strength.
+[*]Added the Umbrella Sword with directional contact parries and umbrella-style fall control.
+[*]Reworked the Mysterious Dagger acquisition and fixed input, rendering, attack-speed, collision, and immunity-frame issues across hybrid weapons.
 [/list]

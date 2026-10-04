@@ -18,7 +18,7 @@ namespace everflow.Content.Items
             Item.width = 32;
             Item.height = 32;
             Item.maxStack = 1;
-            // 在下刺命中地面的动画节点手动消耗，避免按键瞬间就失去物品。
+            // 与章莪玉相同：永久保留的单件Boss召唤物。
             Item.consumable = false;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.useTime = TotalAnimationFrames;
@@ -100,10 +100,6 @@ namespace everflow.Content.Items
 
             if (player.whoAmI != Main.myPlayer)
                 return;
-
-            Item.stack--;
-            if (Item.stack <= 0)
-                Item.TurnToAir();
 
             NPC.SpawnOnPlayer(player.whoAmI, ModContent.NPCType<YaZi>());
         }

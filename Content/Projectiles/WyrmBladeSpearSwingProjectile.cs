@@ -81,7 +81,10 @@ namespace everflow.Content.Projectiles
                 age / (float)System.Math.Max(1, slashFrames - 1),
                 0f,
                 1f);
-            progress *= progress;
+            // 起点和终点角速度最小，斩击中线角速度最大且恰好为
+            // 最小值的两倍。对v(t)=vMin*(1+sin(pi*t))积分并归一化，
+            // 保证不改变原有使用时间与最终180度挥砍角度。
+            progress = GetTwoToOneAngularProgress(progress);
 
             // 第2击从鼠标方向-90度扫到+90度；第4击的SwingDirection
             // 为-1，因此从+90度反向扫回-90度。瞄准角在生成时锁定。
@@ -97,6 +100,15 @@ namespace everflow.Content.Projectiles
                 true,
                 Player.CompositeArmStretchAmount.Full,
                 bladeAngle - MathHelper.PiOver2 - player.fullRotation);
+        }
+
+        private static float GetTwoToOneAngularProgress(float timeProgress)
+        {
+            float numerator = timeProgress +
+                (1f - System.MathF.Cos(MathHelper.Pi * timeProgress)) /
+                MathHelper.Pi;
+            float denominator = 1f + 2f / MathHelper.Pi;
+            return numerator / denominator;
         }
 
         private void UpdateTrail(Vector2 pivot, float bladeAngle)

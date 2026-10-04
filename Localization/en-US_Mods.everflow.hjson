@@ -2,6 +2,85 @@
 # Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
 
 Items: {
+	ZhangEJade: {
+		DisplayName: Jade of Zhang'E
+		Tooltip: Use on the surface to summon Zheng Ning
+	}
+
+	SolarBladeBlue: {
+		DisplayName: Solar Blade - Rigel
+		Tooltip: Right click to project a force shield
+	}
+
+	SolarBladeRed: {
+		DisplayName: Solar Blade - Antares
+		Tooltip: Right click to project a force shield
+	}
+
+	SolarBladeGreen: {
+		DisplayName: Solar Blade - Zubeneschamali
+		Tooltip: Right click to project a force shield
+	}
+
+	SolarBladePurple: {
+		DisplayName: Solar Blade - Spica
+		Tooltip: Right click to project a force shield
+	}
+
+	SolarBladeWhite: {
+		DisplayName: Solar Blade - Sirius
+		Tooltip: Right click to project a force shield
+	}
+
+	SolarBladeYellow: {
+		DisplayName: Solar Blade - Capella
+		Tooltip: Right click to project a force shield
+	}
+
+	SolarBladeOrange: {
+		DisplayName: Solar Blade - Arcturus
+		Tooltip: Right click to project a force shield
+	}
+
+	UmbrellaSword: {
+		DisplayName: Umbrella Sword
+		Tooltip: Right click to quickly open the umbrella and parry enemy contact attacks
+	}
+
+	AnubisStaff: {
+		DisplayName: Anubis Staff
+		Tooltip: Khopesh kills restore 50 mana; right click spends 50 mana and 2 minion slots to summon Forbidden Phantoms
+	}
+
+	HeartOfPureWorld: {
+		DisplayName: Heart of a pure world
+		Tooltip: The Terra Blade's attack speed is no longer affected by world corruption
+	}
+
+	HeartOfTheWorld: {
+		DisplayName: Heart of the world
+		Tooltip: Consumes 1 Green Solution when swinging the Terra Blade, temporarily restoring its full attack speed in a pure world
+	}
+
+	ArcticPillar: {
+		DisplayName: Arctic Pillar
+		Tooltip:
+			'''
+			Left click fires a icy javalin, hold right click to cast a ice pillar
+			"Axle of the world"
+			'''
+	}
+
+	GlacialLament: {
+		DisplayName: Glacial Lament
+		Tooltip:
+			'''
+			Bullets inflict Frostburn and Chilled
+			Every sixth bullet also inflicts Frozen
+			Right click fires a freezing blast and six scattered bullets
+			'''
+	}
+
 	WyrmBladePow: {
 		DisplayName: Eye of Wyrm
 		Tooltip: ""
@@ -270,6 +349,17 @@ Items: {
 	WyrmBladeDagger: {
 		DisplayName: Wyrm Blade Dagger
 		Tooltip: Summons a Phantom Ya Zi Sword sentry that performs a spinning slash when enemies approach
+	}
+
+	SethSword: {
+		DisplayName: Seth Sword
+		Tooltip:
+			'''
+			Rapid left-click attacks gradually increase the weapon's damage
+			Right click to swing the chain blade and focus minions on struck enemies
+			25 summon tag damage
+			15% summon tag Bonded Crit chance
+			'''
 	}
 
 	DragonsEdge: {
@@ -575,6 +665,11 @@ Items: {
 	}
 }
 
+DropConditions: {
+	ZhangEJade: Dropped by enemies in the Underground or Cavern layer after Plantera
+	YaZiBrokenDagger: Dropped by insectoid and other arthropod enemies after Plantera
+}
+
 UI: {
 	AquaVirtueQuote: Nine in the fifth place: The pit is not yet full, only when settled is it level, no blame.
 	Foundation: Foundation
@@ -589,6 +684,7 @@ UI: {
 }
 
 Projectiles: {
+	AnubisStaffProjectile.DisplayName: Anubis Khopesh
 	SpiralHellProjectile2.DisplayName: Spiral Hell Magic Shell
 	SpiralHellProjectile3.DisplayName: Spiral Hell Sniper Laser
 	SpiralHellProjectile4.DisplayName: Spiral Hell Radiant Shard
@@ -655,9 +751,42 @@ Projectiles: {
 	WyrmBladeDaggerProjectile.DisplayName: Wyrm Blade Dagger Projectile
 	WyrmBladePowProjectile.DisplayName: Wyrm Blade Pow Projectile
 	WyrmBladePowEnchantedBeam.DisplayName: Wyrm Blade Pow Enchanted Beam
+	ArcticPillarHeldProjectile.DisplayName: Arctic Pillar Held Projectile
+	ArcticPillarSnowflakeProjectile.DisplayName: Arctic Pillar Snowflake Projectile
+	ArcticPillarSpearProjectile.DisplayName: Arctic Pillar Spear Projectile
+	ArcticPillarOrbitSnowflakeVisual.DisplayName: Arctic Pillar Orbit Snowflake Visual
+	ArcticPillarChargeProjectile.DisplayName: Arctic Pillar Charge Projectile
+	ArcticPillarGiantIceSpikeProjectile.DisplayName: Arctic Pillar Giant Ice Spike Projectile
+	JadeArrow.DisplayName: Jade Arrow
+	JadeInkFlame.DisplayName: Jade Ink Flame
+	JadeRocket.DisplayName: Jade Rocket
+	AnubisManaReturnProjectile.DisplayName: Anubis Mana Return Projectile
+	UmbrellaSwordBlockProjectile.DisplayName: Umbrella Sword Block Projectile
+	PhasebladeForceShieldProjectile.DisplayName: Phaseblade Force Shield Projectile
+	SolarBladeAttackProjectile.DisplayName: Solar Blade Attack Projectile
+	SethSwordProjectile.DisplayName: Seth Sword Projectile
+	ZhengNingFallingGemProjectile.DisplayName: Zheng Ning's Collection
+	ZhengNingTopazExplosionProjectile.DisplayName: Zheng Ning's Collection
+	AnubisForbiddenPhantom.DisplayName: Anubis Forbidden Phantom
+	GlacialLamentSpecialProjectile.DisplayName: Glacial Lament Special Projectile
 }
 
 Buffs: {
+	EnergyCutDebuff: {
+		DisplayName: Energy Cut
+		Description: Reduces defense by 1 per stack, up to 30 stacks
+	}
+
+	MonsterChilledDebuff: {
+		DisplayName: Chilled
+		Description: Movement speed is reduced
+	}
+
+	MonsterFrozenDebuff: {
+		DisplayName: Frozen
+		Description: Immobilized by ice
+	}
+
 	TheRuneBladeBuff: {
 		DisplayName: Runic Blade
 		Description: The Rune Blade is in its empowered form
@@ -750,6 +879,11 @@ Buffs: {
 		DisplayName: Ya Zi's Vengence
 		Description: Mods.everflow.Buffs.YaZiDebuff.Description
 	}
+
+	SethSwordTag: {
+		DisplayName: Seth Sword Tag
+		Description: Mods.everflow.Buffs.SethSwordTag.Description
+	}
 }
 
 Mounts: {
@@ -783,6 +917,12 @@ NPCs: {
 	AncientTrooper_Melee.DisplayName: Ancient Trooper
 	AncientTrooper_Ranged.DisplayName: Ancient Trooper Archer
 	YaZi.DisplayName: Ya Zi
+	ZhengNing.DisplayName: Zheng Ning
+	ZhengNingNephrite.DisplayName: Nephrite
+	ZhengNingSerpentine.DisplayName: Serpentine
+	ZhengNingHeliotrope.DisplayName: Heliotrope
+	ZhengNingDarkNephrite.DisplayName: Dark Nephrite
+	ZhengNingAshJade.DisplayName: Ash Jade
 	YaZiEye.DisplayName: Eye of Ya zi
 	YaZiDebuff.DisplayName: Ya Zi's Vengence
 	YaZiSword.DisplayName: Ya Zi Sword
@@ -799,6 +939,16 @@ Bestiary: {
 	AncientTrooper_Melee: An Alloyan soldier awakened alongside the ancient war machine.
 	AncientTrooper_Ranged: An Alloyan archer awakened alongside the ancient war machine.
 	YaZi: One of the nine sons of the dragon, born with an unending hunger for battle.
+	ZhengNing: It crouches, gathers its strength, and crushes its prey beneath an earth-splitting pounce.
 }
 
 DamageClasses.MagicalMeleeDamageClass.DisplayName: magical melee damage
+ForceShieldTooltip: Right click to project a force shield
+TerraBladePollutionTooltip: It has lost part of its power to the world's corruption...
+TerraBladeWateredTooltip: The little world seed gains a measure of strength from being watered...
+TerraBladeThirstyTooltip: The little world seed longs to be watered...
+TerraBladePureWorldTooltip:
+	'''
+	Its power has returned—not much, but enough
+	“In the name of the world”
+	'''
